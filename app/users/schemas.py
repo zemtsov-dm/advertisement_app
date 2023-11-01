@@ -1,6 +1,6 @@
 from pydantic import BaseModel, EmailStr, constr
 
-from app.adverts.schemas import AdvertBase
+# from app.adverts.schemas import AdvertBase
 
 
 class UserBase(BaseModel):
@@ -13,10 +13,8 @@ class UserCreate(UserBase):
     role: str = "user"
 
 
-class User(UserBase):
+class UserResponse(UserBase):
     id: int
-    role: str
-    adverts: list[AdvertBase] = []
 
     class Config:
         orm_mode = True
