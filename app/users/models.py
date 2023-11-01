@@ -7,8 +7,10 @@ from app.database import Base
 class User(Base):
     __tablename__ = "users"
 
-    id = Column(Integer, primary_key=True, index=True)
-    email = Column(String, unique=True, index=True)
+    id = Column(Integer, primary_key=True)
+    name = Column(String,  nullable=False)
+    email = Column(String, unique=True, nullable=False)
+    password = Column(String, nullable=False)
     hashed_password = Column(String)
-    is_admin = Column(Boolean, default=False)
+    role = Column(String, server_default='user', nullable=False)
     adverts = relationship("Advert", back_populates="owner")
