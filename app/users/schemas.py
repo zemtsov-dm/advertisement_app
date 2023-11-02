@@ -1,30 +1,38 @@
+from typing import Optional
 from pydantic import BaseModel, EmailStr, constr, ConfigDict
 
 # from app.adverts.schemas import AdvertBase
 
 
-class UserBase(BaseModel):
+class UserBaseSchema(BaseModel):
     email: EmailStr
 
 
-class UserCreate(UserBase):
+class UserCreateSchema(UserBaseSchema):
     name: str
     password: constr(min_length=8)
 
-class UserResponse(UserBase):
+
+class UserResponseSchema(UserBaseSchema):
     model_config = ConfigDict(from_attributes=True)
 
     id: int
 
 
-class LoginUserSchema(UserBase):
+class LoginUserSchema(UserBaseSchema):
     password: constr(min_length=8)
 
 
-class Token(BaseModel):
-    access_token: str
-    token_type: str
+class UserPatchSchema(BaseModel):
+    id: int
+    role: str | None = None
+    is_active: bool | None = None
 
 
-class TokenData(BaseModel):
-    username: str | None = None
+class UserAdminResponseSchema(UserBaseSchema):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    role: str
+    is_active: bool
+

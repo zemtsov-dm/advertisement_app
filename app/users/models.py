@@ -1,16 +1,19 @@
-from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
+from app.adverts.models import Advert
+from sqlalchemy.sql import expression
 
 from app.database import Base
+from sqlalchemy.orm import Mapped
+from sqlalchemy.orm import mapped_column
 
 
 class User(Base):
     __tablename__ = "users"
 
-    id = Column(Integer, primary_key=True)
-    name = Column(String,  nullable=False)
-    email = Column(String, unique=True, nullable=False)
-    password = Column(String, nullable=False)
-    hashed_password = Column(String)
-    role = Column(String, server_default='user', nullable=False)
-    adverts = relationship("Advert", back_populates="owner")
+    id: Mapped[int] = mapped_column(primary_key=True)
+    name: Mapped[str] = mapped_column(nullable=False)
+    email: Mapped[str] = mapped_column(unique=True, nullable=False)
+    hashed_password: Mapped[str] = mapped_column(nullable=False)
+    role: Mapped[str] = mapped_column(server_default="user", nullable=False)
+    adverts: Mapped["Advert"] = relationship(back_populates="owner")
+    is_active: Mapped[bool] = mapped_column(server_default=expression.true(), nullable=False)

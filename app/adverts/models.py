@@ -1,17 +1,29 @@
-from sqlalchemy import Column, ForeignKey, Integer, String, Enum
-from sqlalchemy.orm import relationship
-
+import datetime
+from sqlalchemy import ForeignKey
+from sqlalchemy.orm import relationship, Mapped, mapped_column
 from app.database import Base
+from sqlalchemy import text
+from typing import Literal
+
+
+advert_type = Literal["Покупка", "Продажа", "Оказание услуг"]
 
 
 class Advert(Base):
     __tablename__ = "adverts"
 
-    id = Column(Integer, primary_key=True, index=True)
-    title = Column(String, index=True)
-    description = Column(String, index=True)
-    type = Column(Enum("Продажа", "Покупка", "Оказание услуг"))
-    price = Column(Integer)
-
-    owner_id = Column(Integer, ForeignKey("users.id"))
+    id: Mapped[int] = mapped_column(primary_key=True, index=True)
+    title: Mapped[str] = mapped_column(index=True)
+    description: Mapped[str] = mapped_column(index=True)
+    ad_type: Mapped[advert_type] = mapped_column(nullable=False)
+    price: Mapped[int]
+    created_at: Mapped[datetime.datetime] = mapped_column(
+        server_default=text("TIMEZONE('utc',now())")
+    )
+    owner_id: Mapped[int] = mapped_column(
+        ForeignKey(
+            "users.id",
+            ondelete="CASCADE",
+        )
+    )
     owner = relationship("User", back_populates="adverts")

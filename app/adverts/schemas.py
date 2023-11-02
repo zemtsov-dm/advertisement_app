@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 class AdvertBase(BaseModel):
@@ -13,6 +13,8 @@ class ItemCreate(AdvertBase):
 
 
 class Item(AdvertBase):
+    model_config = ConfigDict(from_attributes=True)
+
     id: int
     owner_id: int
 

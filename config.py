@@ -8,11 +8,9 @@ class Settings(BaseSettings):
     POSTGRES_DB: str
     POSTGRES_PASSWORD: str
 
-    JWT_PUBLIC_KEY: str
-    JWT_PRIVATE_KEY: str
-    REFRESH_TOKEN_EXPIRES_IN: int
-    ACCESS_TOKEN_EXPIRES_IN: int
+    SECRET_KEY: str
     JWT_ALGORITHM: str
+    ACCESS_TOKEN_EXPIRE_MINUTES: int
 
     class Config:
         env_file = ".env"
