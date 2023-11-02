@@ -1,4 +1,3 @@
-from typing import Optional
 from pydantic import BaseModel, EmailStr, constr, ConfigDict
 
 # from app.adverts.schemas import AdvertBase
@@ -35,4 +34,3 @@ class UserAdminResponseSchema(UserBaseSchema):
     id: int
     role: str
     is_active: bool
-
