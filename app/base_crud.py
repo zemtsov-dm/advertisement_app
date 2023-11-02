@@ -1,8 +1,7 @@
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select
+from sqlalchemy import select,delete
 from sqlalchemy.engine import Result
-
-
+from fastapi import HTTPException, status
 class BaseCRUD:
     model = None
 
@@ -13,6 +12,8 @@ class BaseCRUD:
         db: AsyncSession,
     ):
         model = await db.get(cls.model, model_id)
+        if not model:
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND)
         return model
 
     @classmethod
@@ -31,7 +32,10 @@ class BaseCRUD:
         db: AsyncSession,
         limit: int = 100,
     ):
-        return db.query(cls.model).limit(limit).all()
+        stmt = select(cls.model)
+        result: Result = await db.execute(stmt)
+        return result.scalars().all()
+
 
     @classmethod
     async def add_item(
@@ -41,4 +45,14 @@ class BaseCRUD:
     ):
         item = cls.model(**data)
         db.add(item)
+        await db.commit()
+        return item
+    @classmethod
+    async def delete_item(
+        cls,
+        db: AsyncSession,
+        item_id,
+    ):
+        stmt = (delete(cls.model).where(cls.model.id== item_id))
+        await db.execute(stmt)
         await db.commit()
