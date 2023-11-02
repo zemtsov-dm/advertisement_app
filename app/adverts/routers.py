@@ -1,8 +1,7 @@
 from fastapi import APIRouter, Depends, status, HTTPException
 from app.adverts.models import Advert
-
 from app.users.models import User
-
+from fastapi_pagination import Page, add_pagination
 # from ..dependences import get_current_admin_user, get_current_user
 from .schemas import AdvertChange, AdvertCreate, AdvertResponse
 from .crud import AdversCRUD
@@ -18,12 +17,12 @@ router = APIRouter(
 )
 
 
-@router.get("", status_code=status.HTTP_200_OK)
+@router.get("", status_code=status.HTTP_200_OK, response_model= Page[AdvertResponse])
 async def get_adverts(
     session: AsyncSession = Depends(get_session),
-) -> list[AdvertResponse]:
-    return await AdversCRUD.get_items(session)
-
+):
+    result = await AdversCRUD.get_items(session)
+    return result
 
 @router.post(
     "",

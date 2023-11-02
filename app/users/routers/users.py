@@ -1,4 +1,5 @@
 from fastapi import APIRouter, Depends, status, HTTPException
+from fastapi_pagination import Page
 from ..dependences import get_current_admin_user, get_current_user
 
 from ..crud import UserCRUD
@@ -22,7 +23,7 @@ async def self_user(user: User = Depends(get_current_user)) -> UserResponseSchem
 async def get_users(
     user: User = Depends(get_current_admin_user),
     session: AsyncSession = Depends(get_session),
-) -> list[UserResponseSchema]:
+) -> Page[UserResponseSchema]:
     return await UserCRUD.get_items(session)
 
 

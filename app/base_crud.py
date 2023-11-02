@@ -2,6 +2,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select,delete
 from sqlalchemy.engine import Result
 from fastapi import HTTPException, status
+from fastapi_pagination.ext.sqlalchemy import paginate
 class BaseCRUD:
     model = None
 
@@ -33,8 +34,10 @@ class BaseCRUD:
         limit: int = 100,
     ):
         stmt = select(cls.model)
-        result: Result = await db.execute(stmt)
-        return result.scalars().all()
+        # result: Result = await db.execute(stmt)
+        # return result.scalars().all()
+        result = await paginate(db,stmt)
+        return result
 
 
     @classmethod
