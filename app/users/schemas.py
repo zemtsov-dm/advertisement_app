@@ -1,6 +1,5 @@
-from pydantic import BaseModel, EmailStr, constr, ConfigDict
-
-# from app.adverts.schemas import AdvertBase
+from pydantic import BaseModel, EmailStr, constr, ConfigDict, field_validator
+from fastapi import HTTPException, status
 
 
 class UserBaseSchema(BaseModel):
@@ -26,6 +25,15 @@ class UserPatchSchema(BaseModel):
     id: int
     role: str | None = None
     is_active: bool | None = None
+
+    @field_validator("role")
+    def check_role(cls, role: str) -> str:
+        if role not in ("admin", "user"):
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="wrong role",
+            )
+        return role
 
 
 class UserAdminResponseSchema(UserBaseSchema):
