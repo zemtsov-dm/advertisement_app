@@ -1,4 +1,4 @@
-from pydantic import BaseModel, EmailStr, constr
+from pydantic import BaseModel, EmailStr, constr, ConfigDict
 
 # from app.adverts.schemas import AdvertBase
 
@@ -8,18 +8,23 @@ class UserBase(BaseModel):
 
 
 class UserCreate(UserBase):
+    name: str
     password: constr(min_length=8)
-    passwordConfirm: str
-    role: str = "user"
-
 
 class UserResponse(UserBase):
+    model_config = ConfigDict(from_attributes=True)
+
     id: int
 
-    class Config:
-        orm_mode = True
 
-
-class LoginUserSchema(BaseModel):
-    email: EmailStr
+class LoginUserSchema(UserBase):
     password: constr(min_length=8)
+
+
+class Token(BaseModel):
+    access_token: str
+    token_type: str
+
+
+class TokenData(BaseModel):
+    username: str | None = None
