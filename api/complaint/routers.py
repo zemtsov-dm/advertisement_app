@@ -16,7 +16,7 @@ from .filters import ComplaintFilter
 logger = logging.getLogger(__name__)
 
 router = APIRouter(
-    prefix="/adverts/{advert_id}/complaints",
+    prefix="/api/adverts/{advert_id}/complaints",
     tags=["Complaints"],
 )
 

@@ -17,7 +17,7 @@ from .schemas import AdvertChange, AdvertCreate, AdvertResponse
 logger = logging.getLogger(__name__)
 
 router = APIRouter(
-    prefix="/adverts",
+    prefix="/api/adverts",
     tags=["Adverts"],
 )
 
