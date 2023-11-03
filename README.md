@@ -41,7 +41,7 @@
 
 ## Пример запроса:
 
-Swagger схема доступна по [ссылке](https://github.com/zemtsov-dm/advertisement_app/blob/main/API%20Example%20-%20Swagger.mhtml)
+Swagger схема доступна по [ссылке](https://github.com/zemtsov-dm/advertisement_app/blob/main/API%20Example%20-%20Swagger.mhtml) (скачать и открыть в браузере)
 
 ## Инструкция по запуску
 
@@ -85,7 +85,7 @@ TELEGRAM_LOG_LEVEL='ERROR' #уровень логирования который
 4. Выполните команду (убедитесь что у вас установлен Docker и Docker compose)
 
 ```
-docker compose up
+docker-compose up
 ```
 5. Теперь ваш проект должен быть доступен по адресу http://localhost:8000/
    
