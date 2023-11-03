@@ -10,6 +10,7 @@ sys.path.insert(0, dirname(dirname(dirname(abspath(__file__)))))
 from app.database import DATABASE_URL, Base  # noqa: E402
 from app.users.models import User #noqa: E402,F401
 from app.adverts.models import Advert  # noqa: E402, F401
+from app.complaint.models import Complaint #noqa: E402, F401
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
