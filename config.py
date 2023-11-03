@@ -12,6 +12,9 @@ class Settings(BaseSettings):
     JWT_ALGORITHM: str
     ACCESS_TOKEN_EXPIRE_MINUTES: int
 
+    CHAT_ID: int
+    BOT_TOKEN: str
+
     class Config:
         env_file = ".env"
 

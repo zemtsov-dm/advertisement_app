@@ -20,6 +20,7 @@ fastapi-pagination = "^0.12.12"
 fastapi-filter = "^1.0.0"
 rich = "^13.6.0"
 asgi-correlation-id = "^4.2.0"
+pytelegrambotapi = "^4.14.0"
 
 [tool.poetry.group.dev.dependencies]
 isort = "^5.12.0"
