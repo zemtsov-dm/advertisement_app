@@ -19,3 +19,4 @@ class User(Base):
     role: Mapped[user_type] = mapped_column(server_default="user", nullable=False)
     adverts: Mapped["Advert"] = relationship(back_populates="owner")
     is_active: Mapped[bool] = mapped_column(server_default=expression.true(), nullable=False)
+    complaints = relationship("Complaint", back_populates="user")
