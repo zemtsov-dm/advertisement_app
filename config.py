@@ -15,6 +15,9 @@ class Settings(BaseSettings):
     CHAT_ID: int
     BOT_TOKEN: str
 
+    API_LOG_LEVEL: str
+    TELEGRAM_LOG_LEVEL: str
+
     class Config:
         env_file = ".env"
 

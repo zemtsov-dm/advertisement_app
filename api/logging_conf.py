@@ -44,11 +44,11 @@ def configure_logging() -> None:
                     "chat_id": f"{settings.CHAT_ID}",
                     "token": f"{settings.BOT_TOKEN}",
                     "formatter": "console",
-                    "level": "DEBUG",
+                    "level": f"{settings.TELEGRAM_LOG_LEVEL}",
                 },
             },
             "loggers": {
-                "api": {"handlers": ["default","telegram"], "level": "DEBUG", "propagate": False},
+                "api": {"handlers": ["default","telegram"], "level": f"{settings.API_LOG_LEVEL}", "propagate": False},
                 "uvicorn": {"handlers": ["default"], "level": "INFO"},
                 "databases": {"handlers": ["default"], "level": "WARNING"},
             },

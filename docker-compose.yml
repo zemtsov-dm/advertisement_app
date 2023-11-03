@@ -11,14 +11,12 @@ services:
     env_file: .env
     volumes:
       - pg_adv_data:/var/lib/postgresql/data
+  backend:
+    build: .
+    container_name: adv_api
+    env_file: .env
+    depends_on:
+      - db
     ports:
-      - 5432:5432
-  # quiz:
-  #   build: .
-  #   container_name: adv_app
-  #   env_file: .env
-  #   depends_on:
-  #     - db
-  #   ports:
-  #     - 8000:8000
-  #   command: ["/app/docker/app.sh"]
+      - 8000:8000
+    command: ["/app/docker/app.sh"]
