@@ -48,7 +48,7 @@ Swagger схема доступна по [ссылке](https://github.com/zemts
 1. Сначала клонируйте репозиторий
 
 ```
-https://github.com/zemtsov-dm/advertisement_app.git
+git clone https://github.com/zemtsov-dm/advertisement_app.git
 ```
 
 2. Перейдите в каталог с проектом:
