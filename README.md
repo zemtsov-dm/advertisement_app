@@ -33,7 +33,7 @@
 
 ## Пример запроса:
 
-Swagger схема доступна по [ссылке].(https://github.com/zemtsov-dm/advertisement_app/blob/main/API%20Example%20-%20Swagger.mhtml)
+Swagger схема доступна по [ссылке](https://github.com/zemtsov-dm/advertisement_app/blob/main/API%20Example%20-%20Swagger.mhtml)
 
 ## Инструкция по запуску
 
