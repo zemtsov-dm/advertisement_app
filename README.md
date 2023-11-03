@@ -49,7 +49,7 @@ https://github.com/zemtsov-dm/advertisement_app.git
 cd advertisement_app
 ```
 
-3. Создайте файл .env и заполните необходимые переменные из файла .env.example своими данными
+3. Создайте файл .env и заполните необходимые переменные из файла .env_example своими данными
 
 ```
 #Database settings
