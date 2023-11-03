@@ -1,6 +1,8 @@
-from fastapi import APIRouter, Depends, status, HTTPException
+from fastapi import APIRouter, Depends, status
 from fastapi_pagination import Page
-from ..dependences import get_current_admin_user, get_current_user
+
+from app.users.utils.users import change_status_user, set_admin
+from ..dependences import get_current_active_user, get_current_admin_user
 
 from ..crud import UserCRUD
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -15,7 +17,7 @@ router = APIRouter(
 
 
 @router.get("/me", status_code=status.HTTP_200_OK)
-async def self_user(user: User = Depends(get_current_user)) -> UserResponseSchema:
+async def self_user(user: User = Depends(get_current_active_user)) -> UserResponseSchema:
     return user
 
 
@@ -23,7 +25,7 @@ async def self_user(user: User = Depends(get_current_user)) -> UserResponseSchem
 async def get_users(
     user: User = Depends(get_current_admin_user),
     session: AsyncSession = Depends(get_session),
-) -> Page[UserResponseSchema]:
+) -> Page[UserAdminResponseSchema]:
     return await UserCRUD.get_items(session)
 
 
@@ -34,12 +36,10 @@ async def change_user(
     session: AsyncSession = Depends(get_session),
     user: User = Depends(get_current_admin_user),
 ) -> UserAdminResponseSchema:
-    target_user: User = UserCRUD.get_item_by_id(db=session,model_id=id)
-    if target_user.role == "admin":
-        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN)
+    target_user: User = await UserCRUD.get_item_by_id(db=session,model_id=id)
     if user_data.role is not None:
-        target_user.role = user_data.role
+        set_admin(target_user, user_data.role)
     if user_data.is_active is not None:
-        target_user.is_active = user_data.is_active
+        change_status_user(target_user,user_data.is_active)
     await session.commit()
     return target_user

@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, Depends, Response, status
 from app.database import get_session
 
-from app.users.auth import authenticate_user, create_access_token, get_password_hash
+from app.users.utils.auth import authenticate_user, create_access_token, get_password_hash
 from ..schemas import LoginUserSchema, UserCreateSchema
 from ..crud import UserCRUD
 from sqlalchemy.ext.asyncio import AsyncSession

@@ -42,6 +42,10 @@ async def authenticate_user(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="User does not exist",
         )
+    if not existing_user.is_active:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST, detail="Inactive user"
+        )
     password_is_valid = verify_password(password, existing_user.hashed_password)
     if not password_is_valid:
         raise HTTPException(

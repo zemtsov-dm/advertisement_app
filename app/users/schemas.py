@@ -22,7 +22,6 @@ class LoginUserSchema(UserBaseSchema):
 
 
 class UserPatchSchema(BaseModel):
-    id: int
     role: str | None = None
     is_active: bool | None = None
 

@@ -1,7 +1,8 @@
 from fastapi import APIRouter, Depends, status, HTTPException
 from app.adverts.models import Advert
 from app.users.models import User
-from fastapi_pagination import Page, add_pagination
+from fastapi_pagination import Page
+
 # from ..dependences import get_current_admin_user, get_current_user
 from .schemas import AdvertChange, AdvertCreate, AdvertResponse
 from .crud import AdversCRUD
@@ -9,7 +10,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 # from ..models import User
 from app.database import get_session
-from app.users.dependences import get_current_admin_user, get_current_user
+from app.users.dependences import get_current_admin_user, get_current_active_user
 
 router = APIRouter(
     prefix="/adverts",
@@ -17,12 +18,13 @@ router = APIRouter(
 )
 
 
-@router.get("", status_code=status.HTTP_200_OK, response_model= Page[AdvertResponse])
+@router.get("", status_code=status.HTTP_200_OK, response_model=Page[AdvertResponse])
 async def get_adverts(
     session: AsyncSession = Depends(get_session),
 ):
     result = await AdversCRUD.get_items(session)
     return result
+
 
 @router.post(
     "",
@@ -31,7 +33,7 @@ async def get_adverts(
 async def create_advert(
     data: AdvertCreate,
     session: AsyncSession = Depends(get_session),
-    user: User = Depends(get_current_user),
+    user: User = Depends(get_current_active_user),
 ):
     data = data.model_dump()
     data["owner_id"] = user.id
@@ -43,27 +45,29 @@ async def get_advert(
     id: int,
     session: AsyncSession = Depends(get_session),
 ) -> AdvertResponse:
-    return await AdversCRUD.get_item_by_id(db =session,model_id=id)
+    return await AdversCRUD.get_item_by_id(db=session, model_id=id)
+
 
 @router.delete("/{id}")
 async def delete_advert(
     id: int,
     session: AsyncSession = Depends(get_session),
-    user: User = Depends(get_current_user)
+    user: User = Depends(get_current_active_user),
 ):
-    advert: Advert = await AdversCRUD.get_item_by_id(db=session,model_id=id)
-    if advert.owner_id != user.id and user.role != 'admin':
+    advert: Advert = await AdversCRUD.get_item_by_id(db=session, model_id=id)
+    if advert.owner_id != user.id and user.role != "admin":
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN)
     await session.delete(advert)
     await session.commit()
+
 
 @router.patch("/{id}", status_code=status.HTTP_201_CREATED)
 async def change_advert(
     id: int,
     data: AdvertChange,
     session: AsyncSession = Depends(get_session),
-    user: User = Depends(get_current_admin_user)
+    user: User = Depends(get_current_admin_user),
 ):
-    advert: Advert = await AdversCRUD.get_item_by_id(db=session,model_id=id)
+    advert: Advert = await AdversCRUD.get_item_by_id(db=session, model_id=id)
     advert.ad_type = data.ad_type
     await session.commit()
