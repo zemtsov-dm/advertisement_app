@@ -51,18 +51,6 @@ async def get_advert(
     advert_id: int,
     complaint_id: int,
     session: AsyncSession = Depends(get_session),
+    user: User = Depends(get_current_admin_user),
 ) -> schemas.ComplaintResponseSchema:
     return await ComplaintCRUD.get_item_by_id(db=session, model_id=id)
-
-
-# @router.delete("/{id}")
-# async def delete_advert(
-#     id: int,
-#     session: AsyncSession = Depends(get_session),
-#     user: User = Depends(get_current_active_user),
-# ):
-#     advert: Advert = await AdversCRUD.get_item_by_id(db=session, model_id=id)
-#     if advert.owner_id != user.id and user.role != "admin":
-#         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN)
-#     await session.delete(advert)
-#     await session.commit()
