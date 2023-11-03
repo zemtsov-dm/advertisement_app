@@ -52,12 +52,26 @@ cd advertisement_app
 3. Создайте файл .env и заполните необходимые переменные из файла .env.example своими данными
 
 ```
-POSTGRES_USER=YOUR_POSTGRES_USER
-POSTGRES_PASSWORD=YOUR_POSTGRES_PASSWORD
-POSTGRES_DB=YOUR_POSTGRES_DB
+#Database settings
+POSTGRES_USER=YOUR_PG_OUES # пример "postgres"
+POSTGRES_PASSWORD=YOUR_PG_PASSWORD # пример "postgres"
+POSTGRES_DB=YOUR_DB_NAME # пример "api_db"
 
-DB_HOST="db"
-DB_PORT=5432
+DB_HOST="db" # не изменять
+DB_PORT=5432 # не изменять
+
+#JWT Settings
+SECRET_KEY=YOUR_SECRET_KEY # можно сгенерировать через команду 'openssl rand -hex 32'
+JWT_ALGORITHM='HS256' # не изменять
+ACCESS_TOKEN_EXPIRE_MINUTES='60' # время жизни токена, можно установить желаемое
+
+#Telegtam
+CHAT_ID=YOUR_CHAT_ID # ваше id из telegram, можно получить у бота @getmyid_bot
+BOT_TOKEN=YOUR_BOT_TOKEN # токен вашего бота, можно создать через @BotFather
+
+#Logging level
+API_LOG_LEVEL='INFO' # уровень логирования всего проекта
+TELEGRAM_LOG_LEVEL='ERROR' #уровень логирования который уходит в бота телеграм
 ```
 
 4. Выполните команду (убедитесь что у вас установлен Docker и Docker compose)
