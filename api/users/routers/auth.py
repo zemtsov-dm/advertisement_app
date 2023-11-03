@@ -24,6 +24,7 @@ async def register_user(
     user_data: UserCreateSchema,
     session: AsyncSession = Depends(get_session),
 ):
+    """Регистрация пользователя"""
     logger.info("Register user")
     existing_user = await UserCRUD.get_filtered_item(session, email=user_data.email)
     if existing_user:
@@ -46,6 +47,7 @@ async def login_user(
     user_data: LoginUserSchema,
     session: AsyncSession = Depends(get_session),
 ):
+    """Получение токена JWT"""
     logger.info("Login user")
     user: User = await authenticate_user(
         session=session,
@@ -63,6 +65,7 @@ async def login_user(
 
 @router.post("/logout", status_code=status.HTTP_204_NO_CONTENT)
 async def logout_user(response: Response):
+    """Выход пользователя из системы"""
     logger.info("Logout user")
     response.delete_cookie("advertisement_app_token")
     return "success logout"

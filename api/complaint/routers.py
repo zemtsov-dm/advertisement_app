@@ -22,7 +22,7 @@ router = APIRouter(
 
 
 @router.get(
-    "",
+    "/",
     status_code=status.HTTP_200_OK,
     response_model=Page[schemas.ComplaintResponseSchema],
 )
@@ -32,6 +32,7 @@ async def get_complaints(
     user_filter: ComplaintFilter = FilterDepends(ComplaintFilter),
     user: User = Depends(get_current_admin_user),
 ):
+    """Получение всех жалоб на конкретное объявление"""
     logger.info("Get complaints")
     result = await ComplaintCRUD.get_items(
         advert_id,
@@ -42,7 +43,7 @@ async def get_complaints(
 
 
 @router.post(
-    "",
+    "/",
     status_code=status.HTTP_201_CREATED,
 )
 async def create_complaint(
@@ -51,6 +52,7 @@ async def create_complaint(
     session: AsyncSession = Depends(get_session),
     user: User = Depends(get_current_active_user),
 ):
+    """Создание жалобы на объявление"""
     logger.info("Create complaint")
     data = data.model_dump()
     data["user_id"] = user.id
@@ -65,5 +67,6 @@ async def get_compalint(
     session: AsyncSession = Depends(get_session),
     user: User = Depends(get_current_admin_user),
 ) -> schemas.ComplaintResponseSchema:
+    """Получение конкретной жалобы"""
     logger.info(f"Get complaint witn id {complaint_id}")
     return await ComplaintCRUD.get_item_by_id(db=session, model_id=id)

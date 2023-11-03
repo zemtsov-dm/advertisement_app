@@ -25,16 +25,18 @@ router = APIRouter(
 
 @router.get("/me", status_code=status.HTTP_200_OK)
 async def self_user(user: User = Depends(get_current_active_user)) -> UserResponseSchema:
+    """Получение информации пользователя о себе"""
     logger.info("self_user")
     return user
 
 
-@router.get("", status_code=status.HTTP_200_OK)
+@router.get("/", status_code=status.HTTP_200_OK)
 async def get_users(
     user: User = Depends(get_current_admin_user),
     user_filter: UserFilter = FilterDepends(UserFilter),
     session: AsyncSession = Depends(get_session),
 ) -> Page[UserAdminResponseSchema]:
+    """Получение информации о всех пользователях"""
     logger.info("Get all users")
     return await UserCRUD.get_items(db=session, user_filter=user_filter)
 
@@ -46,6 +48,7 @@ async def change_user(
     session: AsyncSession = Depends(get_session),
     user: User = Depends(get_current_admin_user),
 ) -> UserAdminResponseSchema:
+    """Получение информации о конкретном пользователе"""
     logger.info("Change user")
     target_user: User = await UserCRUD.get_item_by_id(db=session,model_id=id)
     if user_data.role is not None:

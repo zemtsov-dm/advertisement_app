@@ -22,11 +22,12 @@ router = APIRouter(
 )
 
 
-@router.get("", status_code=status.HTTP_200_OK, response_model=Page[AdvertResponse])
+@router.get("/", status_code=status.HTTP_200_OK, response_model=Page[AdvertResponse])
 async def get_adverts(
     session: AsyncSession = Depends(get_session),
     user_filter: AdvertFilter = FilterDepends(AdvertFilter),
 ):
+    """Получение списка всех объявлений"""
     logger.info("Get all adverts")
     result = await AdversCRUD.get_items(
         db=session,
@@ -36,7 +37,7 @@ async def get_adverts(
 
 
 @router.post(
-    "",
+    "/",
     status_code=status.HTTP_201_CREATED,
 )
 async def create_advert(
@@ -44,6 +45,7 @@ async def create_advert(
     session: AsyncSession = Depends(get_session),
     user: User = Depends(get_current_active_user),
 ):
+    """Создание объявления"""
     logger.info("Create advert")
     data = data.model_dump()
     data["owner_id"] = user.id
@@ -55,6 +57,7 @@ async def get_advert(
     id: int,
     session: AsyncSession = Depends(get_session),
 ) -> AdvertResponse:
+    """Получение конкретного объявления"""
     logger.info("Get one advert")
     return await AdversCRUD.get_item_by_id(db=session, model_id=id)
 
@@ -65,6 +68,7 @@ async def delete_advert(
     session: AsyncSession = Depends(get_session),
     user: User = Depends(get_current_active_user),
 ):
+    """Удаление объявления"""
     logger.info("Delete advert")
     advert: Advert = await AdversCRUD.get_item_by_id(db=session, model_id=id)
     if advert.owner_id != user.id and user.role != "admin":
@@ -80,6 +84,7 @@ async def change_advert(
     session: AsyncSession = Depends(get_session),
     user: User = Depends(get_current_admin_user),
 ):
+    """Изменение категории объявления"""
     logger.info("Change advert")
     advert: Advert = await AdversCRUD.get_item_by_id(db=session, model_id=id)
     advert.ad_type = data.ad_type
