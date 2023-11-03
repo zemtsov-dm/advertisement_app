@@ -1,16 +1,16 @@
 From: <Saved by Blink>
 Snapshot-Content-Location: http://127.0.0.1:8000/docs#/
 Subject: FastAPI - Swagger UI
-Date: Fri, 3 Nov 2023 20:46:39 +0700
+Date: Fri, 3 Nov 2023 22:04:28 +0700
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----MultipartBoundary--3OS8E70OnHDr6k3CA32NGDY78iDSz7gTbCxEyYUiIn----"
+	boundary="----MultipartBoundary--nz6EnuUNF3hBVngmpJdaNE9hQMvqC102S2hHglHpEg----"
 
 
-------MultipartBoundary--3OS8E70OnHDr6k3CA32NGDY78iDSz7gTbCxEyYUiIn----
+------MultipartBoundary--nz6EnuUNF3hBVngmpJdaNE9hQMvqC102S2hHglHpEg----
 Content-Type: text/html
-Content-ID: <frame-6AB92498E87A47D2A39091CE6754271A@mhtml.blink>
+Content-ID: <frame-44DE164208FEB183643BC038856F7414@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: http://127.0.0.1:8000/docs#/
 
@@ -83,268 +83,37 @@ height=3D"20" aria-hidden=3D"true" focusable=3D"false"><path d=3D"M 17.418 =
 602 13.939 C 1.332 14.207 1.332 14.64 1.602 14.908 C 1.873 15.176 2.311 15.=
 176 2.581 14.908 L 10 7.767 L 17.418 14.908 Z"></path></svg></button></h3><=
 div class=3D"no-margin"> <div class=3D"operation-tag-content"><span><div cl=
-ass=3D"opblock opblock-get" id=3D"operations-Users-self_user_users_me_get">=
-<div class=3D"opblock-summary opblock-summary-get"><button aria-label=3D"ge=
-t =E2=80=8B/users=E2=80=8B/me" aria-expanded=3D"false" class=3D"opblock-sum=
-mary-control"><span class=3D"opblock-summary-method">GET</span><span class=
-=3D"opblock-summary-path" data-path=3D"/users/me"><a class=3D"nostyle" href=
-=3D"http://127.0.0.1:8000/docs#/Users/self_user_users_me_get"><span>/users<=
-wbr>/me</span></a></span><div class=3D"opblock-summary-description">Self Us=
-er</div></button><div class=3D"view-line-link copy-to-clipboard" title=3D"C=
-opy to clipboard"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 =
-15 16" width=3D"15" height=3D"16" aria-hidden=3D"true" focusable=3D"false">=
-<g transform=3D"translate(2, -1)"><path fill=3D"#ffffff" fill-rule=3D"eveno=
-dd" d=3D"M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2=
-.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.5=
-5 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1=
- .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-=
-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></g></svg></div><button=
- aria-label=3D"get =E2=80=8B/users=E2=80=8B/me" class=3D"opblock-control-ar=
-row" aria-expanded=3D"false" tabindex=3D"-1"><svg xmlns=3D"http://www.w3.or=
-g/2000/svg" viewBox=3D"0 0 20 20" class=3D"arrow" width=3D"20" height=3D"20=
-" aria-hidden=3D"true" focusable=3D"false"><path d=3D"M17.418 6.109c.272-.2=
-68.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.9=
-08-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.=
-141z"></path></svg></button></div></div></span><span><div class=3D"opblock =
-opblock-get" id=3D"operations-Users-get_users_users_get"><div class=3D"opbl=
-ock-summary opblock-summary-get"><button aria-label=3D"get =E2=80=8B/users"=
- aria-expanded=3D"false" class=3D"opblock-summary-control"><span class=3D"o=
-pblock-summary-method">GET</span><span class=3D"opblock-summary-path" data-=
-path=3D"/users"><a class=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Us=
-ers/get_users_users_get"><span>/users</span></a></span><div class=3D"opbloc=
-k-summary-description">Get Users</div></button><div class=3D"view-line-link=
- copy-to-clipboard" title=3D"Copy to clipboard"><svg xmlns=3D"http://www.w3=
-.org/2000/svg" viewBox=3D"0 0 15 16" width=3D"15" height=3D"16" aria-hidden=
-=3D"true" focusable=3D"false"><g transform=3D"translate(2, -1)"><path fill=
-=3D"#ffffff" fill-rule=3D"evenodd" d=3D"M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l=
--3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.5=
-2-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2=
- 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1=
--1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"=
-></path></g></svg></div><button aria-label=3D"get =E2=80=8B/users" class=3D=
-"opblock-control-arrow" aria-expanded=3D"false" tabindex=3D"-1"><svg xmlns=
-=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 20 20" class=3D"arrow" width=
-=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"false"><path d=3D"M=
-17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-=
-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979=
- 0L10 13.25l7.418-7.141z"></path></svg></button></div></div></span><span><d=
-iv class=3D"opblock opblock-patch" id=3D"operations-Users-change_user_users=
-__id__patch"><div class=3D"opblock-summary opblock-summary-patch"><button a=
-ria-label=3D"patch =E2=80=8B/users=E2=80=8B/{id}" aria-expanded=3D"false" c=
-lass=3D"opblock-summary-control"><span class=3D"opblock-summary-method">PAT=
-CH</span><span class=3D"opblock-summary-path" data-path=3D"/users/{id}"><a =
-class=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Users/change_user_use=
-rs__id__patch"><span>/users<wbr>/{id}</span></a></span><div class=3D"opbloc=
-k-summary-description">Change User</div></button><div class=3D"view-line-li=
-nk copy-to-clipboard" title=3D"Copy to clipboard"><svg xmlns=3D"http://www.=
-w3.org/2000/svg" viewBox=3D"0 0 15 16" width=3D"15" height=3D"16" aria-hidd=
-en=3D"true" focusable=3D"false"><g transform=3D"translate(2, -1)"><path fil=
-l=3D"#ffffff" fill-rule=3D"evenodd" d=3D"M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8=
-l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.=
-52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-=
-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-=
-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z=
-"></path></g></svg></div><button aria-label=3D"patch =E2=80=8B/users=E2=80=
-=8B/{id}" class=3D"opblock-control-arrow" aria-expanded=3D"false" tabindex=
-=3D"-1"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 20 20" cla=
-ss=3D"arrow" width=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"f=
-alse"><path d=3D"M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.=
-908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271=
--.268.709-.268.979 0L10 13.25l7.418-7.141z"></path></svg></button></div></d=
-iv></span></div> </div></div></span><span><div class=3D"opblock-tag-section=
- is-open"><h3 class=3D"opblock-tag no-desc" id=3D"operations-tag-Auth" data=
--tag=3D"Auth" data-is-open=3D"true"><a class=3D"nostyle" href=3D"http://127=
-.0.0.1:8000/docs#/Auth"><span>Auth</span></a><small></small><button aria-ex=
-panded=3D"true" class=3D"expand-operation" title=3D"Collapse operation"><sv=
-g xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 20 20" class=3D"arrow=
-" width=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"false"><path=
- d=3D"M 17.418 14.908 C 17.69 15.176 18.127 15.176 18.397 14.908 C 18.667 1=
-4.64 18.668 14.207 18.397 13.939 L 10.489 6.109 C 10.219 5.841 9.782 5.841 =
-9.51 6.109 L 1.602 13.939 C 1.332 14.207 1.332 14.64 1.602 14.908 C 1.873 1=
-5.176 2.311 15.176 2.581 14.908 L 10 7.767 L 17.418 14.908 Z"></path></svg>=
-</button></h3><div class=3D"no-margin"> <div class=3D"operation-tag-content=
-"><span><div class=3D"opblock opblock-post" id=3D"operations-Auth-register_=
-user_auth_register_post"><div class=3D"opblock-summary opblock-summary-post=
-"><button aria-label=3D"post =E2=80=8B/auth=E2=80=8B/register" aria-expande=
-d=3D"false" class=3D"opblock-summary-control"><span class=3D"opblock-summar=
-y-method">POST</span><span class=3D"opblock-summary-path" data-path=3D"/aut=
-h/register"><a class=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Auth/r=
-egister_user_auth_register_post"><span>/auth<wbr>/register</span></a></span=
-><div class=3D"opblock-summary-description">Register User</div></button><di=
-v class=3D"view-line-link copy-to-clipboard" title=3D"Copy to clipboard"><s=
-vg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 15 16" width=3D"15" =
-height=3D"16" aria-hidden=3D"true" focusable=3D"false"><g transform=3D"tran=
-slate(2, -1)"><path fill=3D"#ffffff" fill-rule=3D"evenodd" d=3D"M2 13h4v1H2=
-v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v=
-1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.5=
-5.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h=
-10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-=
-1 1H3c-.55 0-1 .45-1 1z"></path></g></svg></div><button aria-label=3D"post =
-=E2=80=8B/auth=E2=80=8B/register" class=3D"opblock-control-arrow" aria-expa=
-nded=3D"false" tabindex=3D"-1"><svg xmlns=3D"http://www.w3.org/2000/svg" vi=
-ewBox=3D"0 0 20 20" class=3D"arrow" width=3D"20" height=3D"20" aria-hidden=
-=3D"true" focusable=3D"false"><path d=3D"M17.418 6.109c.272-.268.709-.268.9=
-79 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-=
-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"></path>=
-</svg></button></div></div></span><span><div class=3D"opblock opblock-post"=
- id=3D"operations-Auth-login_user_auth_login_post"><div class=3D"opblock-su=
-mmary opblock-summary-post"><button aria-label=3D"post =E2=80=8B/auth=E2=80=
-=8B/login" aria-expanded=3D"false" class=3D"opblock-summary-control"><span =
-class=3D"opblock-summary-method">POST</span><span class=3D"opblock-summary-=
-path" data-path=3D"/auth/login"><a class=3D"nostyle" href=3D"http://127.0.0=
-.1:8000/docs#/Auth/login_user_auth_login_post"><span>/auth<wbr>/login</span=
-></a></span><div class=3D"opblock-summary-description">Login User</div></bu=
-tton><div class=3D"view-line-link copy-to-clipboard" title=3D"Copy to clipb=
-oard"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 15 16" width=
-=3D"15" height=3D"16" aria-hidden=3D"true" focusable=3D"false"><g transform=
-=3D"translate(2, -1)"><path fill=3D"#ffffff" fill-rule=3D"evenodd" d=3D"M2 =
-13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2=
-.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-=
-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-=
-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 =
-1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></g></svg></div><button aria-label=
-=3D"post =E2=80=8B/auth=E2=80=8B/login" class=3D"opblock-control-arrow" ari=
-a-expanded=3D"false" tabindex=3D"-1"><svg xmlns=3D"http://www.w3.org/2000/s=
-vg" viewBox=3D"0 0 20 20" class=3D"arrow" width=3D"20" height=3D"20" aria-h=
-idden=3D"true" focusable=3D"false"><path d=3D"M17.418 6.109c.272-.268.709-.=
-268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c=
--.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"></=
-path></svg></button></div></div></span><span><div class=3D"opblock opblock-=
-post" id=3D"operations-Auth-logout_user_auth_logout_post"><div class=3D"opb=
-lock-summary opblock-summary-post"><button aria-label=3D"post =E2=80=8B/aut=
-h=E2=80=8B/logout" aria-expanded=3D"false" class=3D"opblock-summary-control=
-"><span class=3D"opblock-summary-method">POST</span><span class=3D"opblock-=
-summary-path" data-path=3D"/auth/logout"><a class=3D"nostyle" href=3D"http:=
-//127.0.0.1:8000/docs#/Auth/logout_user_auth_logout_post"><span>/auth<wbr>/=
-logout</span></a></span><div class=3D"opblock-summary-description">Logout U=
-ser</div></button><div class=3D"view-line-link copy-to-clipboard" title=3D"=
-Copy to clipboard"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0=
- 15 16" width=3D"15" height=3D"16" aria-hidden=3D"true" focusable=3D"false"=
-><g transform=3D"translate(2, -1)"><path fill=3D"#ffffff" fill-rule=3D"even=
-odd" d=3D"M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h=
-2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.=
-55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 =
-1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1=
--1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></g></svg></div><butto=
-n aria-label=3D"post =E2=80=8B/auth=E2=80=8B/logout" class=3D"opblock-contr=
-ol-arrow" aria-expanded=3D"false" tabindex=3D"-1"><svg xmlns=3D"http://www.=
-w3.org/2000/svg" viewBox=3D"0 0 20 20" class=3D"arrow" width=3D"20" height=
-=3D"20" aria-hidden=3D"true" focusable=3D"false"><path d=3D"M17.418 6.109c.=
-272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 =
-0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.=
-418-7.141z"></path></svg></button></div></div></span></div> </div></div></s=
-pan><span><div class=3D"opblock-tag-section is-open"><h3 class=3D"opblock-t=
-ag no-desc" id=3D"operations-tag-Adverts" data-tag=3D"Adverts" data-is-open=
-=3D"true"><a class=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Adverts"=
-><span>Adverts</span></a><small></small><button aria-expanded=3D"true" clas=
-s=3D"expand-operation" title=3D"Collapse operation"><svg xmlns=3D"http://ww=
-w.w3.org/2000/svg" viewBox=3D"0 0 20 20" class=3D"arrow" width=3D"20" heigh=
-t=3D"20" aria-hidden=3D"true" focusable=3D"false"><path d=3D"M 17.418 14.90=
-8 C 17.69 15.176 18.127 15.176 18.397 14.908 C 18.667 14.64 18.668 14.207 1=
-8.397 13.939 L 10.489 6.109 C 10.219 5.841 9.782 5.841 9.51 6.109 L 1.602 1=
-3.939 C 1.332 14.207 1.332 14.64 1.602 14.908 C 1.873 15.176 2.311 15.176 2=
-.581 14.908 L 10 7.767 L 17.418 14.908 Z"></path></svg></button></h3><div c=
-lass=3D"no-margin"> <div class=3D"operation-tag-content"><span><div class=
-=3D"opblock opblock-get" id=3D"operations-Adverts-get_adverts_adverts_get">=
-<div class=3D"opblock-summary opblock-summary-get"><button aria-label=3D"ge=
-t =E2=80=8B/adverts" aria-expanded=3D"false" class=3D"opblock-summary-contr=
-ol"><span class=3D"opblock-summary-method">GET</span><span class=3D"opblock=
--summary-path" data-path=3D"/adverts"><a class=3D"nostyle" href=3D"http://1=
-27.0.0.1:8000/docs#/Adverts/get_adverts_adverts_get"><span>/adverts</span><=
-/a></span><div class=3D"opblock-summary-description">Get Adverts</div></but=
-ton><div class=3D"view-line-link copy-to-clipboard" title=3D"Copy to clipbo=
-ard"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 15 16" width=
-=3D"15" height=3D"16" aria-hidden=3D"true" focusable=3D"false"><g transform=
-=3D"translate(2, -1)"><path fill=3D"#ffffff" fill-rule=3D"evenodd" d=3D"M2 =
-13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2=
-.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-=
-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-=
-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 =
-1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></g></svg></div><button aria-label=
-=3D"get =E2=80=8B/adverts" class=3D"opblock-control-arrow" aria-expanded=3D=
-"false" tabindex=3D"-1"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=
-=3D"0 0 20 20" class=3D"arrow" width=3D"20" height=3D"20" aria-hidden=3D"tr=
-ue" focusable=3D"false"><path d=3D"M17.418 6.109c.272-.268.709-.268.979 0s.=
-271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.=
-27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"></path></svg>=
-</button></div></div></span><span><div class=3D"opblock opblock-post" id=3D=
-"operations-Adverts-create_advert_adverts_post"><div class=3D"opblock-summa=
-ry opblock-summary-post"><button aria-label=3D"post =E2=80=8B/adverts" aria=
--expanded=3D"false" class=3D"opblock-summary-control"><span class=3D"opbloc=
-k-summary-method">POST</span><span class=3D"opblock-summary-path" data-path=
-=3D"/adverts"><a class=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Adve=
-rts/create_advert_adverts_post"><span>/adverts</span></a></span><div class=
-=3D"opblock-summary-description">Create Advert</div></button><div class=3D"=
-view-line-link copy-to-clipboard" title=3D"Copy to clipboard"><svg xmlns=3D=
-"http://www.w3.org/2000/svg" viewBox=3D"0 0 15 16" width=3D"15" height=3D"1=
-6" aria-hidden=3D"true" focusable=3D"false"><g transform=3D"translate(2, -1=
-)"><path fill=3D"#ffffff" fill-rule=3D"evenodd" d=3D"M2 13h4v1H2v-1zm5-6H2v=
-1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c=
--.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h=
-3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h=
-8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 =
-0-1 .45-1 1z"></path></g></svg></div><button aria-label=3D"post =E2=80=8B/a=
-dverts" class=3D"opblock-control-arrow" aria-expanded=3D"false" tabindex=3D=
-"-1"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 20 20" class=
-=3D"arrow" width=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"fal=
-se"><path d=3D"M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.90=
-8 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.=
-268.709-.268.979 0L10 13.25l7.418-7.141z"></path></svg></button></div></div=
-></span><span><div class=3D"opblock opblock-get" id=3D"operations-Adverts-g=
-et_advert_adverts__id__get"><div class=3D"opblock-summary opblock-summary-g=
-et"><button aria-label=3D"get =E2=80=8B/adverts=E2=80=8B/{id}" aria-expande=
-d=3D"false" class=3D"opblock-summary-control"><span class=3D"opblock-summar=
-y-method">GET</span><span class=3D"opblock-summary-path" data-path=3D"/adve=
-rts/{id}"><a class=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Adverts/=
-get_advert_adverts__id__get"><span>/adverts<wbr>/{id}</span></a></span><div=
- class=3D"opblock-summary-description">Get Advert</div></button><div class=
-=3D"view-line-link copy-to-clipboard" title=3D"Copy to clipboard"><svg xmln=
-s=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 15 16" width=3D"15" height=
-=3D"16" aria-hidden=3D"true" focusable=3D"false"><g transform=3D"translate(=
-2, -1)"><path fill=3D"#ffffff" fill-rule=3D"evenodd" d=3D"M2 13h4v1H2v-1zm5=
--6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1=
-h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1=
- 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2z=
-M2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c=
--.55 0-1 .45-1 1z"></path></g></svg></div><button aria-label=3D"get =E2=80=
-=8B/adverts=E2=80=8B/{id}" class=3D"opblock-control-arrow" aria-expanded=3D=
-"false" tabindex=3D"-1"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=
-=3D"0 0 20 20" class=3D"arrow" width=3D"20" height=3D"20" aria-hidden=3D"tr=
-ue" focusable=3D"false"><path d=3D"M17.418 6.109c.272-.268.709-.268.979 0s.=
-271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.=
-27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"></path></svg>=
-</button></div></div></span><span><div class=3D"opblock opblock-delete" id=
-=3D"operations-Adverts-delete_advert_adverts__id__delete"><div class=3D"opb=
-lock-summary opblock-summary-delete"><button aria-label=3D"delete =E2=80=8B=
-/adverts=E2=80=8B/{id}" aria-expanded=3D"false" class=3D"opblock-summary-co=
-ntrol"><span class=3D"opblock-summary-method">DELETE</span><span class=3D"o=
-pblock-summary-path" data-path=3D"/adverts/{id}"><a class=3D"nostyle" href=
-=3D"http://127.0.0.1:8000/docs#/Adverts/delete_advert_adverts__id__delete">=
-<span>/adverts<wbr>/{id}</span></a></span><div class=3D"opblock-summary-des=
-cription">Delete Advert</div></button><div class=3D"view-line-link copy-to-=
-clipboard" title=3D"Copy to clipboard"><svg xmlns=3D"http://www.w3.org/2000=
-/svg" viewBox=3D"0 0 15 16" width=3D"15" height=3D"16" aria-hidden=3D"true"=
- focusable=3D"false"><g transform=3D"translate(2, -1)"><path fill=3D"#fffff=
-f" fill-rule=3D"evenodd" d=3D"M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-=
-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19=
-.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 =
-0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.5=
-5 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></=
-g></svg></div><button aria-label=3D"delete =E2=80=8B/adverts=E2=80=8B/{id}"=
- class=3D"opblock-control-arrow" aria-expanded=3D"false" tabindex=3D"-1"><s=
-vg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 20 20" class=3D"arro=
-w" width=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"false"><pat=
-h d=3D"M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-=
-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-=
-.268.979 0L10 13.25l7.418-7.141z"></path></svg></button></div></div></span>=
-<span><div class=3D"opblock opblock-patch" id=3D"operations-Adverts-change_=
-advert_adverts__id__patch"><div class=3D"opblock-summary opblock-summary-pa=
-tch"><button aria-label=3D"patch =E2=80=8B/adverts=E2=80=8B/{id}" aria-expa=
-nded=3D"false" class=3D"opblock-summary-control"><span class=3D"opblock-sum=
-mary-method">PATCH</span><span class=3D"opblock-summary-path" data-path=3D"=
-/adverts/{id}"><a class=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Adv=
-erts/change_advert_adverts__id__patch"><span>/adverts<wbr>/{id}</span></a><=
-/span><div class=3D"opblock-summary-description">Change Advert</div></butto=
+ass=3D"opblock opblock-get" id=3D"operations-Users-self_user_api_users_me_g=
+et"><div class=3D"opblock-summary opblock-summary-get"><button aria-label=
+=3D"get =E2=80=8B/api=E2=80=8B/users=E2=80=8B/me" aria-expanded=3D"false" c=
+lass=3D"opblock-summary-control"><span class=3D"opblock-summary-method">GET=
+</span><span class=3D"opblock-summary-path" data-path=3D"/api/users/me"><a =
+class=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Users/self_user_api_u=
+sers_me_get"><span>/api<wbr>/users<wbr>/me</span></a></span><div class=3D"o=
+pblock-summary-description">Self User</div></button><div class=3D"view-line=
+-link copy-to-clipboard" title=3D"Copy to clipboard"><svg xmlns=3D"http://w=
+ww.w3.org/2000/svg" viewBox=3D"0 0 15 16" width=3D"15" height=3D"16" aria-h=
+idden=3D"true" focusable=3D"false"><g transform=3D"translate(2, -1)"><path =
+fill=3D"#ffffff" fill-rule=3D"evenodd" d=3D"M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 =
+3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.=
+11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.=
+89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.=
+45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1=
+ 1z"></path></g></svg></div><button aria-label=3D"get =E2=80=8B/api=E2=80=
+=8B/users=E2=80=8B/me" class=3D"opblock-control-arrow" aria-expanded=3D"fal=
+se" tabindex=3D"-1"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 =
+0 20 20" class=3D"arrow" width=3D"20" height=3D"20" aria-hidden=3D"true" fo=
+cusable=3D"false"><path d=3D"M17.418 6.109c.272-.268.709-.268.979 0s.271.70=
+1 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.70=
+1 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"></path></svg></butt=
+on></div></div></span><span><div class=3D"opblock opblock-get" id=3D"operat=
+ions-Users-get_users_api_users__get"><div class=3D"opblock-summary opblock-=
+summary-get"><button aria-label=3D"get =E2=80=8B/api=E2=80=8B/users=E2=80=
+=8B/" aria-expanded=3D"false" class=3D"opblock-summary-control"><span class=
+=3D"opblock-summary-method">GET</span><span class=3D"opblock-summary-path" =
+data-path=3D"/api/users/"><a class=3D"nostyle" href=3D"http://127.0.0.1:800=
+0/docs#/Users/get_users_api_users__get"><span>/api<wbr>/users<wbr>/</span><=
+/a></span><div class=3D"opblock-summary-description">Get Users</div></butto=
 n><div class=3D"view-line-link copy-to-clipboard" title=3D"Copy to clipboar=
 d"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 15 16" width=3D=
 "15" height=3D"16" aria-hidden=3D"true" focusable=3D"false"><g transform=3D=
@@ -354,34 +123,234 @@ d"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 15 16" width=3D=
 c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6=
 H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.=
 45 1-1 1H3c-.55 0-1 .45-1 1z"></path></g></svg></div><button aria-label=3D"=
-patch =E2=80=8B/adverts=E2=80=8B/{id}" class=3D"opblock-control-arrow" aria=
+get =E2=80=8B/api=E2=80=8B/users=E2=80=8B/" class=3D"opblock-control-arrow"=
+ aria-expanded=3D"false" tabindex=3D"-1"><svg xmlns=3D"http://www.w3.org/20=
+00/svg" viewBox=3D"0 0 20 20" class=3D"arrow" width=3D"20" height=3D"20" ar=
+ia-hidden=3D"true" focusable=3D"false"><path d=3D"M17.418 6.109c.272-.268.7=
+09-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7=
+.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z=
+"></path></svg></button></div></div></span><span><div class=3D"opblock opbl=
+ock-patch" id=3D"operations-Users-change_user_api_users__id__patch"><div cl=
+ass=3D"opblock-summary opblock-summary-patch"><button aria-label=3D"patch =
+=E2=80=8B/api=E2=80=8B/users=E2=80=8B/{id}" aria-expanded=3D"false" class=
+=3D"opblock-summary-control"><span class=3D"opblock-summary-method">PATCH</=
+span><span class=3D"opblock-summary-path" data-path=3D"/api/users/{id}"><a =
+class=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Users/change_user_api=
+_users__id__patch"><span>/api<wbr>/users<wbr>/{id}</span></a></span><div cl=
+ass=3D"opblock-summary-description">Change User</div></button><div class=3D=
+"view-line-link copy-to-clipboard" title=3D"Copy to clipboard"><svg xmlns=
+=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 15 16" width=3D"15" height=
+=3D"16" aria-hidden=3D"true" focusable=3D"false"><g transform=3D"translate(=
+2, -1)"><path fill=3D"#ffffff" fill-rule=3D"evenodd" d=3D"M2 13h4v1H2v-1zm5=
+-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1=
+h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1=
+ 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2z=
+M2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c=
+-.55 0-1 .45-1 1z"></path></g></svg></div><button aria-label=3D"patch =E2=
+=80=8B/api=E2=80=8B/users=E2=80=8B/{id}" class=3D"opblock-control-arrow" ar=
+ia-expanded=3D"false" tabindex=3D"-1"><svg xmlns=3D"http://www.w3.org/2000/=
+svg" viewBox=3D"0 0 20 20" class=3D"arrow" width=3D"20" height=3D"20" aria-=
+hidden=3D"true" focusable=3D"false"><path d=3D"M17.418 6.109c.272-.268.709-=
+.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83=
+c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"><=
+/path></svg></button></div></div></span></div> </div></div></span><span><di=
+v class=3D"opblock-tag-section is-open"><h3 class=3D"opblock-tag no-desc" i=
+d=3D"operations-tag-Auth" data-tag=3D"Auth" data-is-open=3D"true"><a class=
+=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Auth"><span>Auth</span></a=
+><small></small><button aria-expanded=3D"true" class=3D"expand-operation" t=
+itle=3D"Collapse operation"><svg xmlns=3D"http://www.w3.org/2000/svg" viewB=
+ox=3D"0 0 20 20" class=3D"arrow" width=3D"20" height=3D"20" aria-hidden=3D"=
+true" focusable=3D"false"><path d=3D"M 17.418 14.908 C 17.69 15.176 18.127 =
+15.176 18.397 14.908 C 18.667 14.64 18.668 14.207 18.397 13.939 L 10.489 6.=
+109 C 10.219 5.841 9.782 5.841 9.51 6.109 L 1.602 13.939 C 1.332 14.207 1.3=
+32 14.64 1.602 14.908 C 1.873 15.176 2.311 15.176 2.581 14.908 L 10 7.767 L=
+ 17.418 14.908 Z"></path></svg></button></h3><div class=3D"no-margin"> <div=
+ class=3D"operation-tag-content"><span><div class=3D"opblock opblock-post" =
+id=3D"operations-Auth-register_user_auth_register_post"><div class=3D"opblo=
+ck-summary opblock-summary-post"><button aria-label=3D"post =E2=80=8B/auth=
+=E2=80=8B/register" aria-expanded=3D"false" class=3D"opblock-summary-contro=
+l"><span class=3D"opblock-summary-method">POST</span><span class=3D"opblock=
+-summary-path" data-path=3D"/auth/register"><a class=3D"nostyle" href=3D"ht=
+tp://127.0.0.1:8000/docs#/Auth/register_user_auth_register_post"><span>/aut=
+h<wbr>/register</span></a></span><div class=3D"opblock-summary-description"=
+>Register User</div></button><div class=3D"view-line-link copy-to-clipboard=
+" title=3D"Copy to clipboard"><svg xmlns=3D"http://www.w3.org/2000/svg" vie=
+wBox=3D"0 0 15 16" width=3D"15" height=3D"16" aria-hidden=3D"true" focusabl=
+e=3D"false"><g transform=3D"translate(2, -1)"><path fill=3D"#ffffff" fill-r=
+ule=3D"evenodd" d=3D"M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9z=
+M4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.2=
+8-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2=
+ 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45=
+-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></g></svg><=
+/div><button aria-label=3D"post =E2=80=8B/auth=E2=80=8B/register" class=3D"=
+opblock-control-arrow" aria-expanded=3D"false" tabindex=3D"-1"><svg xmlns=
+=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 20 20" class=3D"arrow" width=
+=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"false"><path d=3D"M=
+17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-=
+.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979=
+ 0L10 13.25l7.418-7.141z"></path></svg></button></div></div></span><span><d=
+iv class=3D"opblock opblock-post" id=3D"operations-Auth-login_user_auth_log=
+in_post"><div class=3D"opblock-summary opblock-summary-post"><button aria-l=
+abel=3D"post =E2=80=8B/auth=E2=80=8B/login" aria-expanded=3D"false" class=
+=3D"opblock-summary-control"><span class=3D"opblock-summary-method">POST</s=
+pan><span class=3D"opblock-summary-path" data-path=3D"/auth/login"><a class=
+=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Auth/login_user_auth_login=
+_post"><span>/auth<wbr>/login</span></a></span><div class=3D"opblock-summar=
+y-description">Login User</div></button><div class=3D"view-line-link copy-t=
+o-clipboard" title=3D"Copy to clipboard"><svg xmlns=3D"http://www.w3.org/20=
+00/svg" viewBox=3D"0 0 15 16" width=3D"15" height=3D"16" aria-hidden=3D"tru=
+e" focusable=3D"false"><g transform=3D"translate(2, -1)"><path fill=3D"#fff=
+fff" fill-rule=3D"evenodd" d=3D"M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3=
+v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.=
+19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.1=
+1 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-=
+.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path>=
+</g></svg></div><button aria-label=3D"post =E2=80=8B/auth=E2=80=8B/login" c=
+lass=3D"opblock-control-arrow" aria-expanded=3D"false" tabindex=3D"-1"><svg=
+ xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 20 20" class=3D"arrow"=
+ width=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"false"><path =
+d=3D"M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.2=
+7.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.2=
+68.979 0L10 13.25l7.418-7.141z"></path></svg></button></div></div></span><s=
+pan><div class=3D"opblock opblock-post" id=3D"operations-Auth-logout_user_a=
+uth_logout_post"><div class=3D"opblock-summary opblock-summary-post"><butto=
+n aria-label=3D"post =E2=80=8B/auth=E2=80=8B/logout" aria-expanded=3D"false=
+" class=3D"opblock-summary-control"><span class=3D"opblock-summary-method">=
+POST</span><span class=3D"opblock-summary-path" data-path=3D"/auth/logout">=
+<a class=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Auth/logout_user_a=
+uth_logout_post"><span>/auth<wbr>/logout</span></a></span><div class=3D"opb=
+lock-summary-description">Logout User</div></button><div class=3D"view-line=
+-link copy-to-clipboard" title=3D"Copy to clipboard"><svg xmlns=3D"http://w=
+ww.w3.org/2000/svg" viewBox=3D"0 0 15 16" width=3D"15" height=3D"16" aria-h=
+idden=3D"true" focusable=3D"false"><g transform=3D"translate(2, -1)"><path =
+fill=3D"#ffffff" fill-rule=3D"evenodd" d=3D"M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 =
+3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.=
+11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.=
+89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.=
+45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1=
+ 1z"></path></g></svg></div><button aria-label=3D"post =E2=80=8B/auth=E2=80=
+=8B/logout" class=3D"opblock-control-arrow" aria-expanded=3D"false" tabinde=
+x=3D"-1"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 20 20" cl=
+ass=3D"arrow" width=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"=
+false"><path d=3D"M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7=
+.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.27=
+1-.268.709-.268.979 0L10 13.25l7.418-7.141z"></path></svg></button></div></=
+div></span></div> </div></div></span><span><div class=3D"opblock-tag-sectio=
+n is-open"><h3 class=3D"opblock-tag no-desc" id=3D"operations-tag-Adverts" =
+data-tag=3D"Adverts" data-is-open=3D"true"><a class=3D"nostyle" href=3D"htt=
+p://127.0.0.1:8000/docs#/Adverts"><span>Adverts</span></a><small></small><b=
+utton aria-expanded=3D"true" class=3D"expand-operation" title=3D"Collapse o=
+peration"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 20 20" c=
+lass=3D"arrow" width=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D=
+"false"><path d=3D"M 17.418 14.908 C 17.69 15.176 18.127 15.176 18.397 14.9=
+08 C 18.667 14.64 18.668 14.207 18.397 13.939 L 10.489 6.109 C 10.219 5.841=
+ 9.782 5.841 9.51 6.109 L 1.602 13.939 C 1.332 14.207 1.332 14.64 1.602 14.=
+908 C 1.873 15.176 2.311 15.176 2.581 14.908 L 10 7.767 L 17.418 14.908 Z">=
+</path></svg></button></h3><div class=3D"no-margin"> <div class=3D"operatio=
+n-tag-content"><span><div class=3D"opblock opblock-get" id=3D"operations-Ad=
+verts-get_adverts_api_adverts__get"><div class=3D"opblock-summary opblock-s=
+ummary-get"><button aria-label=3D"get =E2=80=8B/api=E2=80=8B/adverts=E2=80=
+=8B/" aria-expanded=3D"false" class=3D"opblock-summary-control"><span class=
+=3D"opblock-summary-method">GET</span><span class=3D"opblock-summary-path" =
+data-path=3D"/api/adverts/"><a class=3D"nostyle" href=3D"http://127.0.0.1:8=
+000/docs#/Adverts/get_adverts_api_adverts__get"><span>/api<wbr>/adverts<wbr=
+>/</span></a></span><div class=3D"opblock-summary-description">Get Adverts<=
+/div></button><div class=3D"view-line-link copy-to-clipboard" title=3D"Copy=
+ to clipboard"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 15 =
+16" width=3D"15" height=3D"16" aria-hidden=3D"true" focusable=3D"false"><g =
+transform=3D"translate(2, -1)"><path fill=3D"#ffffff" fill-rule=3D"evenodd"=
+ d=3D"M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V=
+9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0=
+-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .4=
+5 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1=
+-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></g></svg></div><button ar=
+ia-label=3D"get =E2=80=8B/api=E2=80=8B/adverts=E2=80=8B/" class=3D"opblock-=
+control-arrow" aria-expanded=3D"false" tabindex=3D"-1"><svg xmlns=3D"http:/=
+/www.w3.org/2000/svg" viewBox=3D"0 0 20 20" class=3D"arrow" width=3D"20" he=
+ight=3D"20" aria-hidden=3D"true" focusable=3D"false"><path d=3D"M17.418 6.1=
+09c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.=
+979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.2=
+5l7.418-7.141z"></path></svg></button></div></div></span><span><div class=
+=3D"opblock opblock-post" id=3D"operations-Adverts-create_advert_api_advert=
+s__post"><div class=3D"opblock-summary opblock-summary-post"><button aria-l=
+abel=3D"post =E2=80=8B/api=E2=80=8B/adverts=E2=80=8B/" aria-expanded=3D"fal=
+se" class=3D"opblock-summary-control"><span class=3D"opblock-summary-method=
+">POST</span><span class=3D"opblock-summary-path" data-path=3D"/api/adverts=
+/"><a class=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Adverts/create_=
+advert_api_adverts__post"><span>/api<wbr>/adverts<wbr>/</span></a></span><d=
+iv class=3D"opblock-summary-description">Create Advert</div></button><div c=
+lass=3D"view-line-link copy-to-clipboard" title=3D"Copy to clipboard"><svg =
+xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 15 16" width=3D"15" hei=
+ght=3D"16" aria-hidden=3D"true" focusable=3D"false"><g transform=3D"transla=
+te(2, -1)"><path fill=3D"#ffffff" fill-rule=3D"evenodd" d=3D"M2 13h4v1H2v-1=
+zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm=
+9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.4=
+5-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v=
+-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1=
+H3c-.55 0-1 .45-1 1z"></path></g></svg></div><button aria-label=3D"post =E2=
+=80=8B/api=E2=80=8B/adverts=E2=80=8B/" class=3D"opblock-control-arrow" aria=
 -expanded=3D"false" tabindex=3D"-1"><svg xmlns=3D"http://www.w3.org/2000/sv=
 g" viewBox=3D"0 0 20 20" class=3D"arrow" width=3D"20" height=3D"20" aria-hi=
 dden=3D"true" focusable=3D"false"><path d=3D"M17.418 6.109c.272-.268.709-.2=
 68.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-=
 .27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"></p=
-ath></svg></button></div></div></span></div> </div></div></span><span><div =
-class=3D"opblock-tag-section is-open"><h3 class=3D"opblock-tag no-desc" id=
-=3D"operations-tag-Complaints" data-tag=3D"Complaints" data-is-open=3D"true=
-"><a class=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Complaints"><spa=
-n>Complaints</span></a><small></small><button aria-expanded=3D"true" class=
-=3D"expand-operation" title=3D"Collapse operation"><svg xmlns=3D"http://www=
-.w3.org/2000/svg" viewBox=3D"0 0 20 20" class=3D"arrow" width=3D"20" height=
-=3D"20" aria-hidden=3D"true" focusable=3D"false"><path d=3D"M 17.418 14.908=
- C 17.69 15.176 18.127 15.176 18.397 14.908 C 18.667 14.64 18.668 14.207 18=
-.397 13.939 L 10.489 6.109 C 10.219 5.841 9.782 5.841 9.51 6.109 L 1.602 13=
-.939 C 1.332 14.207 1.332 14.64 1.602 14.908 C 1.873 15.176 2.311 15.176 2.=
-581 14.908 L 10 7.767 L 17.418 14.908 Z"></path></svg></button></h3><div cl=
-ass=3D"no-margin"> <div class=3D"operation-tag-content"><span><div class=3D=
-"opblock opblock-get" id=3D"operations-Complaints-get_complaints_adverts__a=
-dvert_id__complaints_get"><div class=3D"opblock-summary opblock-summary-get=
-"><button aria-label=3D"get =E2=80=8B/adverts=E2=80=8B/{advert_id}=E2=80=8B=
-/complaints" aria-expanded=3D"false" class=3D"opblock-summary-control"><spa=
-n class=3D"opblock-summary-method">GET</span><span class=3D"opblock-summary=
--path" data-path=3D"/adverts/{advert_id}/complaints"><a class=3D"nostyle" h=
-ref=3D"http://127.0.0.1:8000/docs#/Complaints/get_complaints_adverts__adver=
-t_id__complaints_get"><span>/adverts<wbr>/{advert_id}<wbr>/complaints</span=
-></a></span><div class=3D"opblock-summary-description">Get Complaints</div>=
+ath></svg></button></div></div></span><span><div class=3D"opblock opblock-g=
+et" id=3D"operations-Adverts-get_advert_api_adverts__id__get"><div class=3D=
+"opblock-summary opblock-summary-get"><button aria-label=3D"get =E2=80=8B/a=
+pi=E2=80=8B/adverts=E2=80=8B/{id}" aria-expanded=3D"false" class=3D"opblock=
+-summary-control"><span class=3D"opblock-summary-method">GET</span><span cl=
+ass=3D"opblock-summary-path" data-path=3D"/api/adverts/{id}"><a class=3D"no=
+style" href=3D"http://127.0.0.1:8000/docs#/Adverts/get_advert_api_adverts__=
+id__get"><span>/api<wbr>/adverts<wbr>/{id}</span></a></span><div class=3D"o=
+pblock-summary-description">Get Advert</div></button><div class=3D"view-lin=
+e-link copy-to-clipboard" title=3D"Copy to clipboard"><svg xmlns=3D"http://=
+www.w3.org/2000/svg" viewBox=3D"0 0 15 16" width=3D"15" height=3D"16" aria-=
+hidden=3D"true" focusable=3D"false"><g transform=3D"translate(2, -1)"><path=
+ fill=3D"#ffffff" fill-rule=3D"evenodd" d=3D"M2 13h4v1H2v-1zm5-6H2v1h5V7zm2=
+ 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-=
+.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11=
+.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-=
+.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-=
+1 1z"></path></g></svg></div><button aria-label=3D"get =E2=80=8B/api=E2=80=
+=8B/adverts=E2=80=8B/{id}" class=3D"opblock-control-arrow" aria-expanded=3D=
+"false" tabindex=3D"-1"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=
+=3D"0 0 20 20" class=3D"arrow" width=3D"20" height=3D"20" aria-hidden=3D"tr=
+ue" focusable=3D"false"><path d=3D"M17.418 6.109c.272-.268.709-.268.979 0s.=
+271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.=
+27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"></path></svg>=
+</button></div></div></span><span><div class=3D"opblock opblock-delete" id=
+=3D"operations-Adverts-delete_advert_api_adverts__id__delete"><div class=3D=
+"opblock-summary opblock-summary-delete"><button aria-label=3D"delete =E2=
+=80=8B/api=E2=80=8B/adverts=E2=80=8B/{id}" aria-expanded=3D"false" class=3D=
+"opblock-summary-control"><span class=3D"opblock-summary-method">DELETE</sp=
+an><span class=3D"opblock-summary-path" data-path=3D"/api/adverts/{id}"><a =
+class=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Adverts/delete_advert=
+_api_adverts__id__delete"><span>/api<wbr>/adverts<wbr>/{id}</span></a></spa=
+n><div class=3D"opblock-summary-description">Delete Advert</div></button><d=
+iv class=3D"view-line-link copy-to-clipboard" title=3D"Copy to clipboard"><=
+svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 15 16" width=3D"15"=
+ height=3D"16" aria-hidden=3D"true" focusable=3D"false"><g transform=3D"tra=
+nslate(2, -1)"><path fill=3D"#ffffff" fill-rule=3D"evenodd" d=3D"M2 13h4v1H=
+2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2=
+v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.=
+55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9=
+h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1=
+-1 1H3c-.55 0-1 .45-1 1z"></path></g></svg></div><button aria-label=3D"dele=
+te =E2=80=8B/api=E2=80=8B/adverts=E2=80=8B/{id}" class=3D"opblock-control-a=
+rrow" aria-expanded=3D"false" tabindex=3D"-1"><svg xmlns=3D"http://www.w3.o=
+rg/2000/svg" viewBox=3D"0 0 20 20" class=3D"arrow" width=3D"20" height=3D"2=
+0" aria-hidden=3D"true" focusable=3D"false"><path d=3D"M17.418 6.109c.272-.=
+268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.=
+908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7=
+.141z"></path></svg></button></div></div></span><span><div class=3D"opblock=
+ opblock-patch" id=3D"operations-Adverts-change_advert_api_adverts__id__pat=
+ch"><div class=3D"opblock-summary opblock-summary-patch"><button aria-label=
+=3D"patch =E2=80=8B/api=E2=80=8B/adverts=E2=80=8B/{id}" aria-expanded=3D"fa=
+lse" class=3D"opblock-summary-control"><span class=3D"opblock-summary-metho=
+d">PATCH</span><span class=3D"opblock-summary-path" data-path=3D"/api/adver=
+ts/{id}"><a class=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Adverts/c=
+hange_advert_api_adverts__id__patch"><span>/api<wbr>/adverts<wbr>/{id}</spa=
+n></a></span><div class=3D"opblock-summary-description">Change Advert</div>=
 </button><div class=3D"view-line-link copy-to-clipboard" title=3D"Copy to c=
 lipboard"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 15 16" w=
 idth=3D"15" height=3D"16" aria-hidden=3D"true" focusable=3D"false"><g trans=
@@ -391,83 +360,299 @@ form=3D"translate(2, -1)"><path fill=3D"#ffffff" fill-rule=3D"evenodd" d=3D=
 5-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1=
 v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .4=
 5-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></g></svg></div><button aria-la=
-bel=3D"get =E2=80=8B/adverts=E2=80=8B/{advert_id}=E2=80=8B/complaints" clas=
-s=3D"opblock-control-arrow" aria-expanded=3D"false" tabindex=3D"-1"><svg xm=
-lns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 20 20" class=3D"arrow" wi=
-dth=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"false"><path d=
-=3D"M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27=
-.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.26=
-8.979 0L10 13.25l7.418-7.141z"></path></svg></button></div></div></span><sp=
-an><div class=3D"opblock opblock-post" id=3D"operations-Complaints-create_c=
-omplaint_adverts__advert_id__complaints_post"><div class=3D"opblock-summary=
- opblock-summary-post"><button aria-label=3D"post =E2=80=8B/adverts=E2=80=
-=8B/{advert_id}=E2=80=8B/complaints" aria-expanded=3D"false" class=3D"opblo=
-ck-summary-control"><span class=3D"opblock-summary-method">POST</span><span=
- class=3D"opblock-summary-path" data-path=3D"/adverts/{advert_id}/complaint=
-s"><a class=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Complaints/crea=
-te_complaint_adverts__advert_id__complaints_post"><span>/adverts<wbr>/{adve=
-rt_id}<wbr>/complaints</span></a></span><div class=3D"opblock-summary-descr=
-iption">Create Complaint</div></button><div class=3D"view-line-link copy-to=
--clipboard" title=3D"Copy to clipboard"><svg xmlns=3D"http://www.w3.org/200=
-0/svg" viewBox=3D"0 0 15 16" width=3D"15" height=3D"16" aria-hidden=3D"true=
-" focusable=3D"false"><g transform=3D"translate(2, -1)"><path fill=3D"#ffff=
-ff" fill-rule=3D"evenodd" d=3D"M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v=
--2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.1=
-9.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11=
- 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.=
-55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path><=
-/g></svg></div><button aria-label=3D"post =E2=80=8B/adverts=E2=80=8B/{adver=
-t_id}=E2=80=8B/complaints" class=3D"opblock-control-arrow" aria-expanded=3D=
-"false" tabindex=3D"-1"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=
-=3D"0 0 20 20" class=3D"arrow" width=3D"20" height=3D"20" aria-hidden=3D"tr=
-ue" focusable=3D"false"><path d=3D"M17.418 6.109c.272-.268.709-.268.979 0s.=
-271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.=
-27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"></path></svg>=
-</button></div></div></span><span><div class=3D"opblock opblock-get" id=3D"=
-operations-Complaints-get_compalint_adverts__advert_id__complaints__complai=
-nt_id__get"><div class=3D"opblock-summary opblock-summary-get"><button aria=
--label=3D"get =E2=80=8B/adverts=E2=80=8B/{advert_id}=E2=80=8B/complaints=E2=
-=80=8B/{complaint_id}" aria-expanded=3D"false" class=3D"opblock-summary-con=
-trol"><span class=3D"opblock-summary-method">GET</span><span class=3D"opblo=
-ck-summary-path" data-path=3D"/adverts/{advert_id}/complaints/{complaint_id=
-}"><a class=3D"nostyle" href=3D"http://127.0.0.1:8000/docs#/Complaints/get_=
-compalint_adverts__advert_id__complaints__complaint_id__get"><span>/adverts=
-<wbr>/{advert_id}<wbr>/complaints<wbr>/{complaint_id}</span></a></span><div=
- class=3D"opblock-summary-description">Get Compalint</div></button><div cla=
-ss=3D"view-line-link copy-to-clipboard" title=3D"Copy to clipboard"><svg xm=
-lns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 15 16" width=3D"15" heigh=
-t=3D"16" aria-hidden=3D"true" focusable=3D"false"><g transform=3D"translate=
-(2, -1)"><path fill=3D"#ffffff" fill-rule=3D"evenodd" d=3D"M2 13h4v1H2v-1zm=
-5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 =
-1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-=
-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2=
-zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3=
-c-.55 0-1 .45-1 1z"></path></g></svg></div><button aria-label=3D"get =E2=80=
-=8B/adverts=E2=80=8B/{advert_id}=E2=80=8B/complaints=E2=80=8B/{complaint_id=
-}" class=3D"opblock-control-arrow" aria-expanded=3D"false" tabindex=3D"-1">=
-<svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 20 20" class=3D"ar=
-row" width=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"false"><p=
-ath d=3D"M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83=
-c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.70=
-9-.268.979 0L10 13.25l7.418-7.141z"></path></svg></button></div></div></spa=
-n></div> </div></div></span></div></section></div><div class=3D"webhooks-co=
-ntainer wrapper"><section class=3D"block col-12 block-desktop col-12-deskto=
-p"></section></div><div class=3D"wrapper"><section class=3D"block col-12 bl=
-ock-desktop col-12-desktop"><section class=3D"models"><h4><button aria-expa=
-nded=3D"false" class=3D"models-control"><span>Schemas</span><svg xmlns=3D"h=
-ttp://www.w3.org/2000/svg" viewBox=3D"0 0 20 20" width=3D"20" height=3D"20"=
+bel=3D"patch =E2=80=8B/api=E2=80=8B/adverts=E2=80=8B/{id}" class=3D"opblock=
+-control-arrow" aria-expanded=3D"false" tabindex=3D"-1"><svg xmlns=3D"http:=
+//www.w3.org/2000/svg" viewBox=3D"0 0 20 20" class=3D"arrow" width=3D"20" h=
+eight=3D"20" aria-hidden=3D"true" focusable=3D"false"><path d=3D"M17.418 6.=
+109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-=
+.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.=
+25l7.418-7.141z"></path></svg></button></div></div></span></div> </div></di=
+v></span><span><div class=3D"opblock-tag-section is-open"><h3 class=3D"opbl=
+ock-tag no-desc" id=3D"operations-tag-Complaints" data-tag=3D"Complaints" d=
+ata-is-open=3D"true"><a class=3D"nostyle" href=3D"http://127.0.0.1:8000/doc=
+s#/Complaints"><span>Complaints</span></a><small></small><button aria-expan=
+ded=3D"true" class=3D"expand-operation" title=3D"Collapse operation"><svg x=
+mlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 20 20" class=3D"arrow" w=
+idth=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"false"><path d=
+=3D"M 17.418 14.908 C 17.69 15.176 18.127 15.176 18.397 14.908 C 18.667 14.=
+64 18.668 14.207 18.397 13.939 L 10.489 6.109 C 10.219 5.841 9.782 5.841 9.=
+51 6.109 L 1.602 13.939 C 1.332 14.207 1.332 14.64 1.602 14.908 C 1.873 15.=
+176 2.311 15.176 2.581 14.908 L 10 7.767 L 17.418 14.908 Z"></path></svg></=
+button></h3><div class=3D"no-margin"> <div class=3D"operation-tag-content">=
+<span><div class=3D"opblock opblock-get" id=3D"operations-Complaints-get_co=
+mplaints_api_adverts__advert_id__complaints__get"><div class=3D"opblock-sum=
+mary opblock-summary-get"><button aria-label=3D"get =E2=80=8B/api=E2=80=8B/=
+adverts=E2=80=8B/{advert_id}=E2=80=8B/complaints=E2=80=8B/" aria-expanded=
+=3D"false" class=3D"opblock-summary-control"><span class=3D"opblock-summary=
+-method">GET</span><span class=3D"opblock-summary-path" data-path=3D"/api/a=
+dverts/{advert_id}/complaints/"><a class=3D"nostyle" href=3D"http://127.0.0=
+.1:8000/docs#/Complaints/get_complaints_api_adverts__advert_id__complaints_=
+_get"><span>/api<wbr>/adverts<wbr>/{advert_id}<wbr>/complaints<wbr>/</span>=
+</a></span><div class=3D"opblock-summary-description">Get Complaints</div><=
+/button><div class=3D"view-line-link copy-to-clipboard" title=3D"Copy to cl=
+ipboard"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 15 16" wi=
+dth=3D"15" height=3D"16" aria-hidden=3D"true" focusable=3D"false"><g transf=
+orm=3D"translate(2, -1)"><path fill=3D"#ffffff" fill-rule=3D"evenodd" d=3D"=
+M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 1=
+2h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45=
+-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v=
+5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45=
+-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></g></svg></div><button aria-lab=
+el=3D"get =E2=80=8B/api=E2=80=8B/adverts=E2=80=8B/{advert_id}=E2=80=8B/comp=
+laints=E2=80=8B/" class=3D"opblock-control-arrow" aria-expanded=3D"false" t=
+abindex=3D"-1"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 20 =
+20" class=3D"arrow" width=3D"20" height=3D"20" aria-hidden=3D"true" focusab=
+le=3D"false"><path d=3D"M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .=
+969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.=
+969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"></path></svg></button></=
+div></div></span><span><div class=3D"opblock opblock-post" id=3D"operations=
+-Complaints-create_complaint_api_adverts__advert_id__complaints__post"><div=
+ class=3D"opblock-summary opblock-summary-post"><button aria-label=3D"post =
+=E2=80=8B/api=E2=80=8B/adverts=E2=80=8B/{advert_id}=E2=80=8B/complaints=E2=
+=80=8B/" aria-expanded=3D"false" class=3D"opblock-summary-control"><span cl=
+ass=3D"opblock-summary-method">POST</span><span class=3D"opblock-summary-pa=
+th" data-path=3D"/api/adverts/{advert_id}/complaints/"><a class=3D"nostyle"=
+ href=3D"http://127.0.0.1:8000/docs#/Complaints/create_complaint_api_advert=
+s__advert_id__complaints__post"><span>/api<wbr>/adverts<wbr>/{advert_id}<wb=
+r>/complaints<wbr>/</span></a></span><div class=3D"opblock-summary-descript=
+ion">Create Complaint</div></button><div class=3D"view-line-link copy-to-cl=
+ipboard" title=3D"Copy to clipboard"><svg xmlns=3D"http://www.w3.org/2000/s=
+vg" viewBox=3D"0 0 15 16" width=3D"15" height=3D"16" aria-hidden=3D"true" f=
+ocusable=3D"false"><g transform=3D"translate(2, -1)"><path fill=3D"#ffffff"=
+ fill-rule=3D"evenodd" d=3D"M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h=
+5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.1=
+8-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 =
+2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 =
+0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></g>=
+</svg></div><button aria-label=3D"post =E2=80=8B/api=E2=80=8B/adverts=E2=80=
+=8B/{advert_id}=E2=80=8B/complaints=E2=80=8B/" class=3D"opblock-control-arr=
+ow" aria-expanded=3D"false" tabindex=3D"-1"><svg xmlns=3D"http://www.w3.org=
+/2000/svg" viewBox=3D"0 0 20 20" class=3D"arrow" width=3D"20" height=3D"20"=
  aria-hidden=3D"true" focusable=3D"false"><path d=3D"M17.418 6.109c.272-.26=
 8.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.90=
 8-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.1=
-41z"></path></svg></button></h4></section></section></div></div></div></div=
->
+41z"></path></svg></button></div></div></span><span><div class=3D"opblock o=
+pblock-get" id=3D"operations-Complaints-get_compalint_api_adverts__advert_i=
+d__complaints__complaint_id__get"><div class=3D"opblock-summary opblock-sum=
+mary-get"><button aria-label=3D"get =E2=80=8B/api=E2=80=8B/adverts=E2=80=8B=
+/{advert_id}=E2=80=8B/complaints=E2=80=8B/{complaint_id}" aria-expanded=3D"=
+false" class=3D"opblock-summary-control"><span class=3D"opblock-summary-met=
+hod">GET</span><span class=3D"opblock-summary-path" data-path=3D"/api/adver=
+ts/{advert_id}/complaints/{complaint_id}"><a class=3D"nostyle" href=3D"http=
+://127.0.0.1:8000/docs#/Complaints/get_compalint_api_adverts__advert_id__co=
+mplaints__complaint_id__get"><span>/api<wbr>/adverts<wbr>/{advert_id}<wbr>/=
+complaints<wbr>/{complaint_id}</span></a></span><div class=3D"opblock-summa=
+ry-description">Get Compalint</div></button><div class=3D"view-line-link co=
+py-to-clipboard" title=3D"Copy to clipboard"><svg xmlns=3D"http://www.w3.or=
+g/2000/svg" viewBox=3D"0 0 15 16" width=3D"15" height=3D"16" aria-hidden=3D=
+"true" focusable=3D"false"><g transform=3D"translate(2, -1)"><path fill=3D"=
+#ffffff" fill-rule=3D"evenodd" d=3D"M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3=
+ 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3=
+.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2=
+ 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1=
+H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></p=
+ath></g></svg></div><button aria-label=3D"get =E2=80=8B/api=E2=80=8B/advert=
+s=E2=80=8B/{advert_id}=E2=80=8B/complaints=E2=80=8B/{complaint_id}" class=
+=3D"opblock-control-arrow" aria-expanded=3D"false" tabindex=3D"-1"><svg xml=
+ns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 20 20" class=3D"arrow" wid=
+th=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"false"><path d=3D=
+"M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.26=
+8-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.9=
+79 0L10 13.25l7.418-7.141z"></path></svg></button></div></div></span></div>=
+ </div></div></span></div></section></div><div class=3D"webhooks-container =
+wrapper"><section class=3D"block col-12 block-desktop col-12-desktop"></sec=
+tion></div><div class=3D"wrapper"><section class=3D"block col-12 block-desk=
+top col-12-desktop"><section class=3D"models is-open"><h4><button aria-expa=
+nded=3D"true" class=3D"models-control"><span>Schemas</span><svg xmlns=3D"ht=
+tp://www.w3.org/2000/svg" viewBox=3D"0 0 20 20" width=3D"20" height=3D"20" =
+aria-hidden=3D"true" focusable=3D"false"><path d=3D"M 17.418 14.908 C 17.69=
+ 15.176 18.127 15.176 18.397 14.908 C 18.667 14.64 18.668 14.207 18.397 13.=
+939 L 10.489 6.109 C 10.219 5.841 9.782 5.841 9.51 6.109 L 1.602 13.939 C 1=
+.332 14.207 1.332 14.64 1.602 14.908 C 1.873 15.176 2.311 15.176 2.581 14.9=
+08 L 10 7.767 L 17.418 14.908 Z"></path></svg></button></h4><div class=3D"n=
+o-margin"> <article data-json-schema-level=3D"0" class=3D"json-schema-2020-=
+12"><div class=3D"json-schema-2020-12-head"><button type=3D"button" class=
+=3D"json-schema-2020-12-accordion"><div class=3D"json-schema-2020-12-accord=
+ion__children"><div class=3D"json-schema-2020-12__title">AdvertChange</div>=
+</div><span class=3D"json-schema-2020-12-accordion__icon json-schema-2020-1=
+2-accordion__icon--collapsed"><svg xmlns=3D"http://www.w3.org/2000/svg" wid=
+th=3D"24" height=3D"24" viewBox=3D"0 0 24 24"><path d=3D"M10 6L8.59 7.41 13=
+.17 12l-4.58 4.59L10 18l6-6z"></path></svg></span></button><button type=3D"=
+button" class=3D"json-schema-2020-12-expand-deep-button">Expand all</button=
+><strong class=3D"json-schema-2020-12__attribute json-schema-2020-12__attri=
+bute--primary">object</strong></div><div class=3D"json-schema-2020-12-body =
+json-schema-2020-12-body--collapsed"></div></article><article data-json-sch=
+ema-level=3D"0" class=3D"json-schema-2020-12"><div class=3D"json-schema-202=
+0-12-head"><button type=3D"button" class=3D"json-schema-2020-12-accordion">=
+<div class=3D"json-schema-2020-12-accordion__children"><div class=3D"json-s=
+chema-2020-12__title">AdvertCreate</div></div><span class=3D"json-schema-20=
+20-12-accordion__icon json-schema-2020-12-accordion__icon--collapsed"><svg =
+xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"=
+0 0 24 24"><path d=3D"M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></pat=
+h></svg></span></button><button type=3D"button" class=3D"json-schema-2020-1=
+2-expand-deep-button">Expand all</button><strong class=3D"json-schema-2020-=
+12__attribute json-schema-2020-12__attribute--primary">object</strong></div=
+><div class=3D"json-schema-2020-12-body json-schema-2020-12-body--collapsed=
+"></div></article><article data-json-schema-level=3D"0" class=3D"json-schem=
+a-2020-12"><div class=3D"json-schema-2020-12-head"><button type=3D"button" =
+class=3D"json-schema-2020-12-accordion"><div class=3D"json-schema-2020-12-a=
+ccordion__children"><div class=3D"json-schema-2020-12__title">AdvertRespons=
+e</div></div><span class=3D"json-schema-2020-12-accordion__icon json-schema=
+-2020-12-accordion__icon--collapsed"><svg xmlns=3D"http://www.w3.org/2000/s=
+vg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24"><path d=3D"M10 6L8.59 =
+7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></span></button><button t=
+ype=3D"button" class=3D"json-schema-2020-12-expand-deep-button">Expand all<=
+/button><strong class=3D"json-schema-2020-12__attribute json-schema-2020-12=
+__attribute--primary">object</strong></div><div class=3D"json-schema-2020-1=
+2-body json-schema-2020-12-body--collapsed"></div></article><article data-j=
+son-schema-level=3D"0" class=3D"json-schema-2020-12"><div class=3D"json-sch=
+ema-2020-12-head"><button type=3D"button" class=3D"json-schema-2020-12-acco=
+rdion"><div class=3D"json-schema-2020-12-accordion__children"><div class=3D=
+"json-schema-2020-12__title">ComplaintCreateSchema</div></div><span class=
+=3D"json-schema-2020-12-accordion__icon json-schema-2020-12-accordion__icon=
+--collapsed"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=
+=3D"24" viewBox=3D"0 0 24 24"><path d=3D"M10 6L8.59 7.41 13.17 12l-4.58 4.5=
+9L10 18l6-6z"></path></svg></span></button><button type=3D"button" class=3D=
+"json-schema-2020-12-expand-deep-button">Expand all</button><strong class=
+=3D"json-schema-2020-12__attribute json-schema-2020-12__attribute--primary"=
+>object</strong></div><div class=3D"json-schema-2020-12-body json-schema-20=
+20-12-body--collapsed"></div></article><article data-json-schema-level=3D"0=
+" class=3D"json-schema-2020-12"><div class=3D"json-schema-2020-12-head"><bu=
+tton type=3D"button" class=3D"json-schema-2020-12-accordion"><div class=3D"=
+json-schema-2020-12-accordion__children"><div class=3D"json-schema-2020-12_=
+_title">ComplaintResponseSchema</div></div><span class=3D"json-schema-2020-=
+12-accordion__icon json-schema-2020-12-accordion__icon--collapsed"><svg xml=
+ns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0=
+ 24 24"><path d=3D"M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path><=
+/svg></span></button><button type=3D"button" class=3D"json-schema-2020-12-e=
+xpand-deep-button">Expand all</button><strong class=3D"json-schema-2020-12_=
+_attribute json-schema-2020-12__attribute--primary">object</strong></div><d=
+iv class=3D"json-schema-2020-12-body json-schema-2020-12-body--collapsed"><=
+/div></article><article data-json-schema-level=3D"0" class=3D"json-schema-2=
+020-12"><div class=3D"json-schema-2020-12-head"><button type=3D"button" cla=
+ss=3D"json-schema-2020-12-accordion"><div class=3D"json-schema-2020-12-acco=
+rdion__children"><div class=3D"json-schema-2020-12__title">HTTPValidationEr=
+ror</div></div><span class=3D"json-schema-2020-12-accordion__icon json-sche=
+ma-2020-12-accordion__icon--collapsed"><svg xmlns=3D"http://www.w3.org/2000=
+/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24"><path d=3D"M10 6L8.5=
+9 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></span></button><button=
+ type=3D"button" class=3D"json-schema-2020-12-expand-deep-button">Expand al=
+l</button><strong class=3D"json-schema-2020-12__attribute json-schema-2020-=
+12__attribute--primary">object</strong></div><div class=3D"json-schema-2020=
+-12-body json-schema-2020-12-body--collapsed"></div></article><article data=
+-json-schema-level=3D"0" class=3D"json-schema-2020-12"><div class=3D"json-s=
+chema-2020-12-head"><button type=3D"button" class=3D"json-schema-2020-12-ac=
+cordion"><div class=3D"json-schema-2020-12-accordion__children"><div class=
+=3D"json-schema-2020-12__title">LoginUserSchema</div></div><span class=3D"j=
+son-schema-2020-12-accordion__icon json-schema-2020-12-accordion__icon--col=
+lapsed"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24=
+" viewBox=3D"0 0 24 24"><path d=3D"M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 1=
+8l6-6z"></path></svg></span></button><button type=3D"button" class=3D"json-=
+schema-2020-12-expand-deep-button">Expand all</button><strong class=3D"json=
+-schema-2020-12__attribute json-schema-2020-12__attribute--primary">object<=
+/strong></div><div class=3D"json-schema-2020-12-body json-schema-2020-12-bo=
+dy--collapsed"></div></article><article data-json-schema-level=3D"0" class=
+=3D"json-schema-2020-12"><div class=3D"json-schema-2020-12-head"><button ty=
+pe=3D"button" class=3D"json-schema-2020-12-accordion"><div class=3D"json-sc=
+hema-2020-12-accordion__children"><div class=3D"json-schema-2020-12__title"=
+>Page_AdvertResponse_</div></div><span class=3D"json-schema-2020-12-accordi=
+on__icon json-schema-2020-12-accordion__icon--collapsed"><svg xmlns=3D"http=
+://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24"><p=
+ath d=3D"M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></spa=
+n></button><button type=3D"button" class=3D"json-schema-2020-12-expand-deep=
+-button">Expand all</button><strong class=3D"json-schema-2020-12__attribute=
+ json-schema-2020-12__attribute--primary">object</strong></div><div class=
+=3D"json-schema-2020-12-body json-schema-2020-12-body--collapsed"></div></a=
+rticle><article data-json-schema-level=3D"0" class=3D"json-schema-2020-12">=
+<div class=3D"json-schema-2020-12-head"><button type=3D"button" class=3D"js=
+on-schema-2020-12-accordion"><div class=3D"json-schema-2020-12-accordion__c=
+hildren"><div class=3D"json-schema-2020-12__title">Page_ComplaintResponseSc=
+hema_</div></div><span class=3D"json-schema-2020-12-accordion__icon json-sc=
+hema-2020-12-accordion__icon--collapsed"><svg xmlns=3D"http://www.w3.org/20=
+00/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24"><path d=3D"M10 6L8=
+.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></span></button><butt=
+on type=3D"button" class=3D"json-schema-2020-12-expand-deep-button">Expand =
+all</button><strong class=3D"json-schema-2020-12__attribute json-schema-202=
+0-12__attribute--primary">object</strong></div><div class=3D"json-schema-20=
+20-12-body json-schema-2020-12-body--collapsed"></div></article><article da=
+ta-json-schema-level=3D"0" class=3D"json-schema-2020-12"><div class=3D"json=
+-schema-2020-12-head"><button type=3D"button" class=3D"json-schema-2020-12-=
+accordion"><div class=3D"json-schema-2020-12-accordion__children"><div clas=
+s=3D"json-schema-2020-12__title">Page_UserAdminResponseSchema_</div></div><=
+span class=3D"json-schema-2020-12-accordion__icon json-schema-2020-12-accor=
+dion__icon--collapsed"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"2=
+4" height=3D"24" viewBox=3D"0 0 24 24"><path d=3D"M10 6L8.59 7.41 13.17 12l=
+-4.58 4.59L10 18l6-6z"></path></svg></span></button><button type=3D"button"=
+ class=3D"json-schema-2020-12-expand-deep-button">Expand all</button><stron=
+g class=3D"json-schema-2020-12__attribute json-schema-2020-12__attribute--p=
+rimary">object</strong></div><div class=3D"json-schema-2020-12-body json-sc=
+hema-2020-12-body--collapsed"></div></article><article data-json-schema-lev=
+el=3D"0" class=3D"json-schema-2020-12"><div class=3D"json-schema-2020-12-he=
+ad"><button type=3D"button" class=3D"json-schema-2020-12-accordion"><div cl=
+ass=3D"json-schema-2020-12-accordion__children"><div class=3D"json-schema-2=
+020-12__title">UserAdminResponseSchema</div></div><span class=3D"json-schem=
+a-2020-12-accordion__icon json-schema-2020-12-accordion__icon--collapsed"><=
+svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=
+=3D"0 0 24 24"><path d=3D"M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"><=
+/path></svg></span></button><button type=3D"button" class=3D"json-schema-20=
+20-12-expand-deep-button">Expand all</button><strong class=3D"json-schema-2=
+020-12__attribute json-schema-2020-12__attribute--primary">object</strong><=
+/div><div class=3D"json-schema-2020-12-body json-schema-2020-12-body--colla=
+psed"></div></article><article data-json-schema-level=3D"0" class=3D"json-s=
+chema-2020-12"><div class=3D"json-schema-2020-12-head"><button type=3D"butt=
+on" class=3D"json-schema-2020-12-accordion"><div class=3D"json-schema-2020-=
+12-accordion__children"><div class=3D"json-schema-2020-12__title">UserCreat=
+eSchema</div></div><span class=3D"json-schema-2020-12-accordion__icon json-=
+schema-2020-12-accordion__icon--collapsed"><svg xmlns=3D"http://www.w3.org/=
+2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24"><path d=3D"M10 6=
+L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></span></button><bu=
+tton type=3D"button" class=3D"json-schema-2020-12-expand-deep-button">Expan=
+d all</button><strong class=3D"json-schema-2020-12__attribute json-schema-2=
+020-12__attribute--primary">object</strong></div><div class=3D"json-schema-=
+2020-12-body json-schema-2020-12-body--collapsed"></div></article><article =
+data-json-schema-level=3D"0" class=3D"json-schema-2020-12"><div class=3D"js=
+on-schema-2020-12-head"><button type=3D"button" class=3D"json-schema-2020-1=
+2-accordion"><div class=3D"json-schema-2020-12-accordion__children"><div cl=
+ass=3D"json-schema-2020-12__title">UserPatchSchema</div></div><span class=
+=3D"json-schema-2020-12-accordion__icon json-schema-2020-12-accordion__icon=
+--collapsed"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=
+=3D"24" viewBox=3D"0 0 24 24"><path d=3D"M10 6L8.59 7.41 13.17 12l-4.58 4.5=
+9L10 18l6-6z"></path></svg></span></button><button type=3D"button" class=3D=
+"json-schema-2020-12-expand-deep-button">Expand all</button><strong class=
+=3D"json-schema-2020-12__attribute json-schema-2020-12__attribute--primary"=
+>object</strong></div><div class=3D"json-schema-2020-12-body json-schema-20=
+20-12-body--collapsed"></div></article><article data-json-schema-level=3D"0=
+" class=3D"json-schema-2020-12"><div class=3D"json-schema-2020-12-head"><bu=
+tton type=3D"button" class=3D"json-schema-2020-12-accordion"><div class=3D"=
+json-schema-2020-12-accordion__children"><div class=3D"json-schema-2020-12_=
+_title">UserResponseSchema</div></div><span class=3D"json-schema-2020-12-ac=
+cordion__icon json-schema-2020-12-accordion__icon--collapsed"><svg xmlns=3D=
+"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 2=
+4"><path d=3D"M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>=
+</span></button><button type=3D"button" class=3D"json-schema-2020-12-expand=
+-deep-button">Expand all</button><strong class=3D"json-schema-2020-12__attr=
+ibute json-schema-2020-12__attribute--primary">object</strong></div><div cl=
+ass=3D"json-schema-2020-12-body json-schema-2020-12-body--collapsed"></div>=
+</article><article data-json-schema-level=3D"0" class=3D"json-schema-2020-1=
+2"><div class=3D"json-schema-2020-12-head"><button type=3D"button" class=3D=
+"json-schema-2020-12-accordion"><div class=3D"json-schema-2020-12-accordion=
+__children"><div class=3D"json-schema-2020-12__title">ValidationError</div>=
+</div><span class=3D"json-schema-2020-12-accordion__icon json-schema-2020-1=
+2-accordion__icon--collapsed"><svg xmlns=3D"http://www.w3.org/2000/svg" wid=
+th=3D"24" height=3D"24" viewBox=3D"0 0 24 24"><path d=3D"M10 6L8.59 7.41 13=
+.17 12l-4.58 4.59L10 18l6-6z"></path></svg></span></button><button type=3D"=
+button" class=3D"json-schema-2020-12-expand-deep-button">Expand all</button=
+><strong class=3D"json-schema-2020-12__attribute json-schema-2020-12__attri=
+bute--primary">object</strong></div><div class=3D"json-schema-2020-12-body =
+json-schema-2020-12-body--collapsed"></div></article> </div></section></sec=
+tion></div></div></div></div>
    =20
     <!-- `SwaggerUIBundle` is now available on the page -->
    =20
    =20
    =20
     </body></html>
-------MultipartBoundary--3OS8E70OnHDr6k3CA32NGDY78iDSz7gTbCxEyYUiIn----
+------MultipartBoundary--nz6EnuUNF3hBVngmpJdaNE9hQMvqC102S2hHglHpEg----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://cdn.jsdelivr.net/npm/swagger-ui-dist@5.9.0/swagger-ui.css
@@ -5386,4 +5571,4 @@ ox .json-schema-2020-12-expand-deep-button { background-color: transparent;=
 .swagger-ui .models .json-schema-2020-12:not(.json-schema-2020-12--embedded=
 ) > .json-schema-2020-12-head .json-schema-2020-12__title:first-of-type { f=
 ont-size: 16px; }
-------MultipartBoundary--3OS8E70OnHDr6k3CA32NGDY78iDSz7gTbCxEyYUiIn------
+------MultipartBoundary--nz6EnuUNF3hBVngmpJdaNE9hQMvqC102S2hHglHpEg------

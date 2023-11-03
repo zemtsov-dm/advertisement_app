@@ -12,7 +12,7 @@ from .users.routers.users import router as users_router
 
 logger = logging.getLogger(__name__)
 
-app = FastAPI())
+app = FastAPI()
 
 app.add_middleware(CorrelationIdMiddleware)
 
