@@ -1,6 +1,7 @@
 from fastapi import APIRouter, Depends, status
 from fastapi_pagination import Page
-
+from app.users.filters import UserFilter
+from fastapi_filter import FilterDepends
 from app.users.utils.users import change_status_user, set_admin
 from ..dependences import get_current_active_user, get_current_admin_user
 
@@ -24,9 +25,10 @@ async def self_user(user: User = Depends(get_current_active_user)) -> UserRespon
 @router.get("", status_code=status.HTTP_200_OK)
 async def get_users(
     user: User = Depends(get_current_admin_user),
+    user_filter: UserFilter = FilterDepends(UserFilter),
     session: AsyncSession = Depends(get_session),
 ) -> Page[UserAdminResponseSchema]:
-    return await UserCRUD.get_items(session)
+    return await UserCRUD.get_items(db=session, user_filter=user_filter)
 
 
 @router.patch("/{id}", status_code=status.HTTP_201_CREATED)

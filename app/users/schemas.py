@@ -41,3 +41,4 @@ class UserAdminResponseSchema(UserBaseSchema):
     id: int
     role: str
     is_active: bool
+    name: str

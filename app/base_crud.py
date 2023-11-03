@@ -3,6 +3,7 @@ from sqlalchemy import select,delete
 from sqlalchemy.engine import Result
 from fastapi import HTTPException, status
 from fastapi_pagination.ext.sqlalchemy import paginate
+from app.users.filters import UserFilter
 class BaseCRUD:
     model = None
 
@@ -31,11 +32,11 @@ class BaseCRUD:
     async def get_items(
         cls,
         db: AsyncSession,
-        limit: int = 100,
+        user_filter: UserFilter,
     ):
         stmt = select(cls.model)
-        # result: Result = await db.execute(stmt)
-        # return result.scalars().all()
+        stmt = user_filter.filter(stmt)
+        stmt = user_filter.sort(stmt)
         result = await paginate(db,stmt)
         return result
 

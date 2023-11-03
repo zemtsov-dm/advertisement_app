@@ -1,4 +1,5 @@
 from fastapi import APIRouter, Depends, status, HTTPException
+from app.adverts.filters import AdvertFilter
 from app.adverts.models import Advert
 from app.users.models import User
 from fastapi_pagination import Page
@@ -7,8 +8,7 @@ from fastapi_pagination import Page
 from .schemas import AdvertChange, AdvertCreate, AdvertResponse
 from .crud import AdversCRUD
 from sqlalchemy.ext.asyncio import AsyncSession
-
-# from ..models import User
+from fastapi_filter import FilterDepends
 from app.database import get_session
 from app.users.dependences import get_current_admin_user, get_current_active_user
 
@@ -21,8 +21,12 @@ router = APIRouter(
 @router.get("", status_code=status.HTTP_200_OK, response_model=Page[AdvertResponse])
 async def get_adverts(
     session: AsyncSession = Depends(get_session),
+    user_filter: AdvertFilter = FilterDepends(AdvertFilter),
 ):
-    result = await AdversCRUD.get_items(session)
+    result = await AdversCRUD.get_items(
+        db=session,
+        user_filter=user_filter,
+    )
     return result
 
 

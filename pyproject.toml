@@ -17,6 +17,7 @@ pydantic-settings = "^2.0.3"
 passlib = {extras = ["bcrypt"], version = "^1.7.4"}
 python-jose = {extras = ["cryptography"], version = "^3.3.0"}
 fastapi-pagination = "^0.12.12"
+fastapi-filter = "^1.0.0"
 
 [tool.poetry.group.dev.dependencies]
 isort = "^5.12.0"
