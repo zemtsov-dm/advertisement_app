@@ -1,5 +1,5 @@
-from pydantic import BaseModel, EmailStr, constr, ConfigDict, field_validator
 from fastapi import HTTPException, status
+from pydantic import BaseModel, ConfigDict, EmailStr, constr, field_validator
 
 
 class UserBaseSchema(BaseModel):

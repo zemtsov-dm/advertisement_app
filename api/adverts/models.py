@@ -1,10 +1,10 @@
 import datetime
-from sqlalchemy import ForeignKey
-from sqlalchemy.orm import relationship, Mapped, mapped_column
-from api.database import Base
-from sqlalchemy import text
 from typing import Literal
 
+from sqlalchemy import ForeignKey, text
+from sqlalchemy.orm import Mapped, mapped_column, relationship
+
+from api.database import Base
 
 advert_type = Literal["Покупка", "Продажа", "Оказание услуг"]
 

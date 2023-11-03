@@ -1,16 +1,19 @@
 import logging
+
 from fastapi import APIRouter, Depends, status
-from fastapi_pagination import Page
-from api.users.filters import UserFilter
 from fastapi_filter import FilterDepends
+from fastapi_pagination import Page
+from sqlalchemy.ext.asyncio import AsyncSession
+
+from api.database import get_session
+from api.users.filters import UserFilter
 from api.users.utils.users import change_status_user, set_admin
-from ..dependences import get_current_active_user, get_current_admin_user
 
 from ..crud import UserCRUD
-from sqlalchemy.ext.asyncio import AsyncSession
+from ..dependences import get_current_active_user, get_current_admin_user
 from ..models import User
-from ..schemas import UserAdminResponseSchema, UserResponseSchema, UserPatchSchema
-from api.database import get_session
+from ..schemas import (UserAdminResponseSchema, UserPatchSchema,
+                       UserResponseSchema)
 
 logger = logging.getLogger(__name__)
 

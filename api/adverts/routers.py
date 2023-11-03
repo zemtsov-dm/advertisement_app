@@ -1,16 +1,19 @@
 import logging
-from fastapi import APIRouter, Depends, status, HTTPException
+
+from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi_filter import FilterDepends
+from fastapi_pagination import Page
+from sqlalchemy.ext.asyncio import AsyncSession
+
 from api.adverts.filters import AdvertFilter
 from api.adverts.models import Advert
-from api.users.models import User
-from fastapi_pagination import Page
-
-from .schemas import AdvertChange, AdvertCreate, AdvertResponse
-from .crud import AdversCRUD
-from sqlalchemy.ext.asyncio import AsyncSession
-from fastapi_filter import FilterDepends
 from api.database import get_session
-from api.users.dependences import get_current_admin_user, get_current_active_user
+from api.users.dependences import (get_current_active_user,
+                                   get_current_admin_user)
+from api.users.models import User
+
+from .crud import AdversCRUD
+from .schemas import AdvertChange, AdvertCreate, AdvertResponse
 
 logger = logging.getLogger(__name__)
 

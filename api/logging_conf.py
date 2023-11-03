@@ -1,7 +1,10 @@
-from logging.config import dictConfig
-from config import settings
-import telebot
 from logging import Handler, LogRecord
+from logging.config import dictConfig
+
+import telebot
+
+from config import settings
+
 
 class TelegramBotHandler(Handler):
     def __init__(self, token: str, chat_id: str):

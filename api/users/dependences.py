@@ -1,12 +1,14 @@
 from datetime import datetime
+
 from fastapi import Depends, HTTPException, Request, status
-from jose import jwt, JWTError
+from jose import JWTError, jwt
 from sqlalchemy.ext.asyncio import AsyncSession
+
 from api.database import get_session
 from api.users.models import User
-from .crud import UserCRUD
-
 from config import settings
+
+from .crud import UserCRUD
 
 
 def get_token(request: Request):

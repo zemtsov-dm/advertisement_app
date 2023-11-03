@@ -1,10 +1,13 @@
 import logging
-from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select, delete
-from sqlalchemy.engine import Result
+
 from fastapi import HTTPException, status
 from fastapi_pagination.ext.sqlalchemy import paginate
+from sqlalchemy import delete, select
+from sqlalchemy.engine import Result
+from sqlalchemy.ext.asyncio import AsyncSession
+
 from api.users.filters import UserFilter
+
 logger = logging.getLogger(__name__)
 
 class BaseCRUD:
@@ -53,7 +56,7 @@ class BaseCRUD:
         **data,
     ):
         item = cls.model(**data)
-        logger.degub(item)
+        logger.debug(item)
         db.add(item)
         await db.commit()
         return item

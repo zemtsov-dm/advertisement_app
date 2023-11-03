@@ -1,5 +1,6 @@
 
 from fastapi import HTTPException, status
+
 from api.users.models import User
 
 

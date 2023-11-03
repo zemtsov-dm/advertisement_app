@@ -1,6 +1,7 @@
 from fastapi_filter.contrib.sqlalchemy import Filter
 
-from api.users.models import User 
+from api.users.models import User
+
 
 class UserFilter(Filter):
     name__in: list[str] | None = None

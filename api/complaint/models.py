@@ -1,12 +1,10 @@
 import datetime
+
 from sqlalchemy import ForeignKey, text
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import Mapped, mapped_column, relationship
+
 from api.adverts.models import Advert
-
 from api.database import Base
-from sqlalchemy.orm import Mapped
-from sqlalchemy.orm import mapped_column
-
 from api.users.models import User
 
 

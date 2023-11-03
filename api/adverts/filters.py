@@ -1,4 +1,5 @@
 from fastapi_filter.contrib.sqlalchemy import Filter
+
 from api.adverts.models import Advert
 
 

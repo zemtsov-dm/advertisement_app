@@ -1,4 +1,5 @@
 from api.base_crud import BaseCRUD
+
 from .models import Advert
 
 

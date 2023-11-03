@@ -1,12 +1,10 @@
 from typing import Literal
-from sqlalchemy.orm import relationship
-from api.adverts.models import Advert
+
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 from sqlalchemy.sql import expression
 
+from api.adverts.models import Advert
 from api.database import Base
-from sqlalchemy.orm import Mapped
-from sqlalchemy.orm import mapped_column
-
 
 user_type = Literal["user", "admin"]
 class User(Base):

@@ -1,12 +1,14 @@
 import logging
+
+from asgi_correlation_id import CorrelationIdMiddleware
 from fastapi import FastAPI, HTTPException
 from fastapi.exception_handlers import http_exception_handler
 from fastapi_pagination import add_pagination
-from .users.routers.auth import router as auth_router
-from .users.routers.users import router as users_router
+
 from .adverts.routers import router as adverts_router
 from .complaint.routers import router as complaints_router
-from asgi_correlation_id import CorrelationIdMiddleware
+from .users.routers.auth import router as auth_router
+from .users.routers.users import router as users_router
 
 logger = logging.getLogger(__name__)
 

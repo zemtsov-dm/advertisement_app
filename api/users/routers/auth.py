@@ -1,12 +1,15 @@
 import logging
-from fastapi import APIRouter, HTTPException, Depends, Response, status
-from api.database import get_session
 
-from api.users.utils.auth import authenticate_user, create_access_token, get_password_hash
-from ..schemas import LoginUserSchema, UserCreateSchema
-from ..crud import UserCRUD
+from fastapi import APIRouter, Depends, HTTPException, Response, status
 from sqlalchemy.ext.asyncio import AsyncSession
+
+from api.database import get_session
+from api.users.utils.auth import (authenticate_user, create_access_token,
+                                  get_password_hash)
+
+from ..crud import UserCRUD
 from ..models import User
+from ..schemas import LoginUserSchema, UserCreateSchema
 
 logger = logging.getLogger(__name__) 
 

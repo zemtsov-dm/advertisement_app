@@ -1,8 +1,10 @@
+import logging
+
+from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
+from sqlalchemy.orm import DeclarativeBase, sessionmaker
+
 from api.logging_conf import configure_logging
 from config import settings
-from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
-from sqlalchemy.orm import sessionmaker, DeclarativeBase
-import logging
 
 configure_logging()
 
