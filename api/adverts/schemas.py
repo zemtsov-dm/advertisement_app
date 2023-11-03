@@ -18,6 +18,8 @@ class AdvertBase(BaseModel):
                 detail="wrong type",
             )
         return type
+
+
 class AdvertCreate(AdvertBase):
     pass
 
@@ -28,6 +30,7 @@ class AdvertResponse(AdvertBase):
     id: int
     owner_id: int
     created_at: datetime
+
 
 class AdvertChange(BaseModel):
     ad_type: str

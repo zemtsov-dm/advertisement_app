@@ -8,8 +8,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from api.adverts.filters import AdvertFilter
 from api.adverts.models import Advert
 from api.database import get_session
-from api.users.dependences import (get_current_active_user,
-                                   get_current_admin_user)
+from api.users.dependences import get_current_active_user, get_current_admin_user
 from api.users.models import User
 
 from .crud import AdversCRUD

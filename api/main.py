@@ -25,6 +25,6 @@ app.include_router(complaints_router)
 
 
 @app.exception_handler(HTTPException)
-async def http_exception_logging(request,exc):
+async def http_exception_logging(request, exc):
     logger.error(f"HTTPException: {exc.status_code} {exc.detail}")
-    return await http_exception_handler(request,exc)
+    return await http_exception_handler(request, exc)

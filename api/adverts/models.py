@@ -24,7 +24,6 @@ class Advert(Base):
         ForeignKey(
             "users.id",
             ondelete="CASCADE",
-            
         )
     )
     owner = relationship("User", back_populates="adverts", single_parent=True)

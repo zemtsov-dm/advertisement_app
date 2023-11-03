@@ -9,4 +9,3 @@ class ComplaintFilter(Filter):
 
     class Constants(Filter.Constants):
         model = Complaint
-

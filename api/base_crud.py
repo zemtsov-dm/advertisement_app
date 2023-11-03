@@ -10,6 +10,7 @@ from api.users.filters import UserFilter
 
 logger = logging.getLogger(__name__)
 
+
 class BaseCRUD:
     model = None
 

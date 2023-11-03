@@ -17,8 +17,8 @@ class ComplaintCRUD(BaseCRUD):
         db: AsyncSession,
         user_filter: UserFilter,
     ):
-        stmt = select(cls.model).where(cls.model.advert_id==advert_id)
+        stmt = select(cls.model).where(cls.model.advert_id == advert_id)
         stmt = user_filter.filter(stmt)
         stmt = user_filter.sort(stmt)
-        result = await paginate(db,stmt)
+        result = await paginate(db, stmt)
         return result

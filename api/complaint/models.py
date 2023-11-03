@@ -18,11 +18,17 @@ class Complaint(Base):
         back_populates="complaints",
         single_parent=True,
     )
-    advert_id: Mapped[int] = mapped_column(ForeignKey("adverts.id", ondelete="CASCADE",))
+    advert_id: Mapped[int] = mapped_column(
+        ForeignKey(
+            "adverts.id",
+            ondelete="CASCADE",
+        )
+    )
     user: Mapped["User"] = relationship(
         back_populates="complaints",
         single_parent=True,
     )
     user_id: Mapped[int] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"))
     created_at: Mapped[datetime.datetime] = mapped_column(
-        server_default=text("TIMEZONE('utc',now())"))
+        server_default=text("TIMEZONE('utc',now())")
+    )

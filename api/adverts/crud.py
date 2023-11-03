@@ -5,6 +5,3 @@ from .models import Advert
 
 class AdversCRUD(BaseCRUD):
     model = Advert
-
-
-

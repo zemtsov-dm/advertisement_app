@@ -16,6 +16,7 @@ class TelegramBotHandler(Handler):
         bot = telebot.TeleBot(self.token)
         bot.send_message(self.chat_id, self.format(record))
 
+
 def configure_logging() -> None:
     dictConfig(
         {
@@ -51,10 +52,13 @@ def configure_logging() -> None:
                 },
             },
             "loggers": {
-                "api": {"handlers": ["default","telegram"], "level": f"{settings.API_LOG_LEVEL}", "propagate": False},
+                "api": {
+                    "handlers": ["default", "telegram"],
+                    "level": f"{settings.API_LOG_LEVEL}",
+                    "propagate": False,
+                },
                 "uvicorn": {"handlers": ["default"], "level": "INFO"},
                 "databases": {"handlers": ["default"], "level": "WARNING"},
             },
         }
     )
-

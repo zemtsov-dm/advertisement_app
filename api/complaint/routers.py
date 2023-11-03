@@ -6,8 +6,7 @@ from fastapi_pagination import Page
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from api.database import get_session
-from api.users.dependences import (get_current_active_user,
-                                   get_current_admin_user)
+from api.users.dependences import get_current_active_user, get_current_admin_user
 from api.users.models import User
 
 from . import schemas
@@ -22,7 +21,11 @@ router = APIRouter(
 )
 
 
-@router.get("", status_code=status.HTTP_200_OK, response_model=Page[schemas.ComplaintResponseSchema])
+@router.get(
+    "",
+    status_code=status.HTTP_200_OK,
+    response_model=Page[schemas.ComplaintResponseSchema],
+)
 async def get_complaints(
     advert_id: int,
     session: AsyncSession = Depends(get_session),
@@ -43,7 +46,7 @@ async def get_complaints(
     status_code=status.HTTP_201_CREATED,
 )
 async def create_complaint(
-    advert_id:int,
+    advert_id: int,
     data: schemas.ComplaintCreateSchema,
     session: AsyncSession = Depends(get_session),
     user: User = Depends(get_current_active_user),
@@ -51,7 +54,7 @@ async def create_complaint(
     logger.info("Create complaint")
     data = data.model_dump()
     data["user_id"] = user.id
-    data["advert_id"] = advert_id 
+    data["advert_id"] = advert_id
     return await ComplaintCRUD.add_item(session, **data)
 
 
